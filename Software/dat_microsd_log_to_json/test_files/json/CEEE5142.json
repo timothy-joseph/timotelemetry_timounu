@@ -1,0 +1,266 @@
+[
+	{
+		"timestamp": 0,
+		"rpm": 6300,
+		"curr_gear": 221,
+		"tps": 194,
+		"oil_pres": 22,
+		"coolant_temp": 232,
+		"fuel_pres": 0.250000,
+		"lambda": 1.148438,
+		"iat": 25.375000
+	},
+	{
+		"timestamp": 867187
+	},
+	{
+		"timestamp": 1968750,
+		"susLF": 73,
+		"susRF": 114,
+		"susLR": 223,
+		"susRR": 229,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 2070312,
+		"tyre_presLF": 22.250000,
+		"tyre_presRF": 14.750000,
+		"tyre_presLR": 30.000000,
+		"tyre_presRR": 23.625000
+	},
+	{
+		"timestamp": 2171875,
+		"susLF": 94,
+		"susRF": 186,
+		"susLR": 186,
+		"susRR": 29,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 2273437,
+		"dash_selector": 170
+	},
+	{
+		"timestamp": 2375000,
+		"tyre_presLF": 27.625000,
+		"tyre_presRF": 4.875000,
+		"tyre_presLR": 15.500000,
+		"tyre_presRR": 13.125000
+	},
+	{
+		"timestamp": 2476562,
+		"tyre_presLF": 22.875000,
+		"tyre_presRF": 14.500000,
+		"tyre_presLR": 26.125000,
+		"tyre_presRR": 21.750000
+	},
+	{
+		"timestamp": 2570312,
+		"rpm": 14300,
+		"curr_gear": 177,
+		"tps": 73,
+		"oil_pres": 40,
+		"coolant_temp": 210,
+		"fuel_pres": 14.875000,
+		"lambda": 1.781250,
+		"iat": 4.625000
+	},
+	{
+		"timestamp": 2671875,
+		"dash_selector": 238
+	},
+	{
+		"timestamp": 2773437,
+		"rpm": 19900,
+		"curr_gear": 117,
+		"tps": 93,
+		"oil_pres": 3,
+		"coolant_temp": 92,
+		"fuel_pres": 11.250000,
+		"lambda": 1.585938,
+		"iat": 15.875000
+	},
+	{
+		"timestamp": 1875000,
+		"susLF": 77,
+		"susRF": 50,
+		"susLR": 59,
+		"susRR": 115,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 2976562,
+		"susLF": 145,
+		"susRF": 139,
+		"susLR": 45,
+		"susRR": 248,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 3078125,
+		"susLF": 222,
+		"susRF": 110,
+		"susLR": 236,
+		"susRR": 136,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 3179687
+	},
+	{
+		"timestamp": 3281250,
+		"tyre_presLF": 27.375000,
+		"tyre_presRF": 28.125000,
+		"tyre_presLR": 5.750000,
+		"tyre_presRR": 6.250000
+	},
+	{
+		"timestamp": 3382812
+	},
+	{
+		"timestamp": 3476562,
+		"susLF": 132,
+		"susRF": 241,
+		"susLR": 140,
+		"susRR": 247,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 3578125
+	},
+	{
+		"timestamp": 3679687,
+		"rpm": 15400,
+		"curr_gear": 15,
+		"tps": 51,
+		"oil_pres": 57,
+		"coolant_temp": 51,
+		"fuel_pres": 11.375000,
+		"lambda": 1.515625,
+		"iat": 6.500000
+	},
+	{
+		"timestamp": 3781250,
+		"tyre_presLF": 7.125000,
+		"tyre_presRF": 16.750000,
+		"tyre_presLR": 29.000000,
+		"tyre_presRR": 31.375000
+	},
+	{
+		"timestamp": 2882812,
+		"rpm": 16200,
+		"curr_gear": 162,
+		"tps": 226,
+		"oil_pres": 222,
+		"coolant_temp": 116,
+		"fuel_pres": 17.250000,
+		"lambda": 0.171875,
+		"iat": 7.750000
+	},
+	{
+		"timestamp": 3984375,
+		"lv_bat_volts": 25.625000,
+		"in_voltage": 7.125000,
+		"in_cur_bat": 13.125000,
+		"in_cur_alt": 17.625000
+	},
+	{
+		"timestamp": 4085937,
+		"tyre_presLF": 29.625000,
+		"tyre_presRF": 5.750000,
+		"tyre_presLR": 17.000000,
+		"tyre_presRR": 8.875000
+	},
+	{
+		"timestamp": 4187500
+	},
+	{
+		"timestamp": 4289062,
+		"tyre_presLF": 26.000000,
+		"tyre_presRF": 13.250000,
+		"tyre_presLR": 27.875000,
+		"tyre_presRR": 16.375000
+	},
+	{
+		"timestamp": 4390625
+	},
+	{
+		"timestamp": 4492187,
+		"tyre_presLF": 29.250000,
+		"tyre_presRF": 18.875000,
+		"tyre_presLR": 1.000000,
+		"tyre_presRR": 4.375000
+	},
+	{
+		"timestamp": 4585937,
+		"susLF": 254,
+		"susRF": 36,
+		"susLR": 5,
+		"susRR": 7,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 4687500,
+		"tyre_presLF": 7.375000,
+		"tyre_presRF": 6.000000,
+		"tyre_presLR": 8.000000,
+		"tyre_presRR": 11.125000
+	},
+	{
+		"timestamp": 4789062
+	},
+	{
+		"timestamp": 3890625
+	},
+	{
+		"timestamp": 4992187,
+		"lv_bat_volts": 29.375000,
+		"in_voltage": 17.375000,
+		"in_cur_bat": 2.125000,
+		"in_cur_alt": 25.625000
+	},
+	{
+		"timestamp": 5093750,
+		"lv_bat_volts": 27.375000,
+		"in_voltage": 3.875000,
+		"in_cur_bat": 25.500000,
+		"in_cur_alt": 9.125000
+	},
+	{
+		"timestamp": 5195312,
+		"tyre_presLF": 10.125000,
+		"tyre_presRF": 12.625000,
+		"tyre_presLR": 18.125000,
+		"tyre_presRR": 8.750000
+	},
+	{
+		"timestamp": 5296875,
+		"lv_bat_volts": 22.500000,
+		"in_voltage": 31.500000,
+		"in_cur_bat": 11.000000,
+		"in_cur_alt": 17.750000
+	},
+	{
+		"timestamp": 5390625
+	},
+	{
+		"timestamp": 5492187,
+		"susLF": 19,
+		"susRF": 232,
+		"susLR": 61,
+		"susRR": 1,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 5593750
+	}
+
+]

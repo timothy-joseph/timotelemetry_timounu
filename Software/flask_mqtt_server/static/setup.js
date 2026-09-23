@@ -1,0 +1,266 @@
+function setup_charts()
+{
+	/* make a clear copy of the configs */
+	config_rpm = JSON.parse(JSON.stringify(config_rpm_clear));
+	config_curr_gear = JSON.parse(JSON.stringify(config_curr_gear_clear));
+	config_tps = JSON.parse(JSON.stringify(config_tps_clear));
+	config_oil_pres = JSON.parse(JSON.stringify(config_oil_pres_clear));
+	config_coolant_temp = JSON.parse(JSON.stringify(config_coolant_temp_clear));
+	config_fuel_pres = JSON.parse(JSON.stringify(config_fuel_pres_clear));
+	config_lambda = JSON.parse(JSON.stringify(config_lambda_clear));
+	config_iat = JSON.parse(JSON.stringify(config_iat_clear));
+	config_egt1 = JSON.parse(JSON.stringify(config_egt1_clear));
+	config_egt2 = JSON.parse(JSON.stringify(config_egt2_clear));
+	config_egt3 = JSON.parse(JSON.stringify(config_egt3_clear));
+	config_egt4 = JSON.parse(JSON.stringify(config_egt4_clear));
+	config_vehicle_speed = JSON.parse(JSON.stringify(config_vehicle_speed_clear));
+	config_map = JSON.parse(JSON.stringify(config_map_clear));
+	config_bps = JSON.parse(JSON.stringify(config_bps_clear));
+	config_oil_temp = JSON.parse(JSON.stringify(config_oil_temp_clear));
+
+	config_water_in_stanga = JSON.parse(JSON.stringify(config_water_in_stanga_clear));
+	config_water_out_stanga = JSON.parse(JSON.stringify(config_water_out_stanga_clear));
+	config_aer_in_stanga = JSON.parse(JSON.stringify(config_aer_in_stanga_clear));
+	config_aer_out_stanga = JSON.parse(JSON.stringify(config_aer_out_stanga_clear));
+	config_manometru_stanga = JSON.parse(JSON.stringify(config_manometru_stanga_clear));
+	config_anemometru_stanga = JSON.parse(JSON.stringify(config_anemometru_stanga_clear));
+	config_water_in_dreapta = JSON.parse(JSON.stringify(config_water_in_dreapta_clear));
+	config_water_out_dreapta = JSON.parse(JSON.stringify(config_water_out_dreapta_clear));
+	config_aer_in_dreapta = JSON.parse(JSON.stringify(config_aer_in_dreapta_clear));
+	config_aer_out_dreapta = JSON.parse(JSON.stringify(config_aer_out_dreapta_clear));
+	config_manometru_dreapta = JSON.parse(JSON.stringify(config_manometru_dreapta_clear));
+	config_anemometru_dreapta = JSON.parse(JSON.stringify(config_anemometru_dreapta_clear));
+
+	config_lv_bat_volts = JSON.parse(JSON.stringify(config_lv_bat_volts_clear));
+	config_in_voltage = JSON.parse(JSON.stringify(config_in_voltage_clear));
+	config_in_cur_bat = JSON.parse(JSON.stringify(config_in_cur_bat_clear));
+	config_in_cur_alt = JSON.parse(JSON.stringify(config_in_cur_alt_clear));
+	config_output_current_0 = JSON.parse(JSON.stringify(config_output_current_0_clear));
+	config_output_current_1 = JSON.parse(JSON.stringify(config_output_current_1_clear));
+	config_output_current_2 = JSON.parse(JSON.stringify(config_output_current_2_clear));
+	config_output_current_3 = JSON.parse(JSON.stringify(config_output_current_3_clear));
+	config_output_current_4 = JSON.parse(JSON.stringify(config_output_current_4_clear));
+	config_output_current_5 = JSON.parse(JSON.stringify(config_output_current_5_clear));
+	config_output_current_6 = JSON.parse(JSON.stringify(config_output_current_6_clear));
+	config_output_current_7 = JSON.parse(JSON.stringify(config_output_current_7_clear));
+	config_output_voltage_0 = JSON.parse(JSON.stringify(config_output_voltage_0_clear));
+	config_output_voltage_1 = JSON.parse(JSON.stringify(config_output_voltage_1_clear));
+	config_output_voltage_2 = JSON.parse(JSON.stringify(config_output_voltage_2_clear));
+	config_output_voltage_3 = JSON.parse(JSON.stringify(config_output_voltage_3_clear));
+	config_output_voltage_4 = JSON.parse(JSON.stringify(config_output_voltage_4_clear));
+	config_output_voltage_5 = JSON.parse(JSON.stringify(config_output_voltage_5_clear));
+	config_output_voltage_6 = JSON.parse(JSON.stringify(config_output_voltage_6_clear));
+	config_output_voltage_7 = JSON.parse(JSON.stringify(config_output_voltage_7_clear));
+	config_tyre_presLF = JSON.parse(JSON.stringify(config_tyre_presLF_clear));
+	config_tyre_presRF = JSON.parse(JSON.stringify(config_tyre_presRF_clear));
+	config_tyre_presLR = JSON.parse(JSON.stringify(config_tyre_presLR_clear));
+	config_tyre_presRR = JSON.parse(JSON.stringify(config_tyre_presRR_clear));
+	config_susLF = JSON.parse(JSON.stringify(config_susLF_clear));
+	config_susRF = JSON.parse(JSON.stringify(config_susRF_clear));
+	config_susLR = JSON.parse(JSON.stringify(config_susLR_clear));
+	config_susRR = JSON.parse(JSON.stringify(config_susRR_clear));
+	config_accel = JSON.parse(JSON.stringify(config_accel_clear));
+	config_gyro = JSON.parse(JSON.stringify(config_gyro_clear));
+	config_altitude = JSON.parse(JSON.stringify(config_altitude_clear));
+	config_gps_speed = JSON.parse(JSON.stringify(config_gps_speed_clear));
+
+	const context_rpm = document.getElementById('id_rpm').getContext('2d');
+	const context_curr_gear = document.getElementById('id_curr_gear').getContext('2d');
+	const context_tps = document.getElementById('id_tps').getContext('2d');
+	const context_oil_pres = document.getElementById('id_oil_pres').getContext('2d');
+	const context_coolant_temp = document.getElementById('id_coolant_temp').getContext('2d');
+	const context_fuel_pres = document.getElementById('id_fuel_pres').getContext('2d');
+	const context_lambda = document.getElementById('id_lambda').getContext('2d');
+	const context_iat = document.getElementById('id_iat').getContext('2d');
+	const context_egt1 = document.getElementById('id_egt1').getContext('2d');
+	const context_egt2 = document.getElementById('id_egt2').getContext('2d');
+	const context_egt3 = document.getElementById('id_egt3').getContext('2d');
+	const context_egt4 = document.getElementById('id_egt4').getContext('2d');
+	const context_vehicle_speed = document.getElementById('id_vehicle_speed').getContext('2d');
+	const context_map = document.getElementById('id_map').getContext('2d');
+	const context_bps = document.getElementById('id_bps').getContext('2d');
+	const context_oil_temp = document.getElementById('id_oil_temp').getContext('2d');
+
+	const context_water_in_stanga = document.getElementById('id_water_in_stanga').getContext('2d');
+	const context_water_out_stanga = document.getElementById('id_water_out_stanga').getContext('2d');
+	const context_aer_in_stanga = document.getElementById('id_aer_in_stanga').getContext('2d');
+	const context_aer_out_stanga = document.getElementById('id_aer_out_stanga').getContext('2d');
+	const context_manometru_stanga = document.getElementById('id_manometru_stanga').getContext('2d');
+	const context_anemometru_stanga = document.getElementById('id_anemometru_stanga').getContext('2d');
+	const context_water_in_dreapta = document.getElementById('id_water_in_dreapta').getContext('2d');
+	const context_water_out_dreapta = document.getElementById('id_water_out_dreapta').getContext('2d');
+	const context_aer_in_dreapta = document.getElementById('id_aer_in_dreapta').getContext('2d');
+	const context_aer_out_dreapta = document.getElementById('id_aer_out_dreapta').getContext('2d');
+	const context_manometru_dreapta = document.getElementById('id_manometru_dreapta').getContext('2d');
+	const context_anemometru_dreapta = document.getElementById('id_anemometru_dreapta').getContext('2d');
+
+	const context_lv_bat_volts = document.getElementById('id_lv_bat_volts').getContext('2d');
+	const context_in_voltage = document.getElementById('id_in_voltage').getContext('2d');
+	const context_in_cur_bat = document.getElementById('id_in_cur_bat').getContext('2d');
+	const context_in_cur_alt = document.getElementById('id_in_cur_alt').getContext('2d');
+	const context_output_current_0 = document.getElementById('id_output_current_0').getContext('2d');
+	const context_output_current_1 = document.getElementById('id_output_current_1').getContext('2d');
+	const context_output_current_2 = document.getElementById('id_output_current_2').getContext('2d');
+	const context_output_current_3 = document.getElementById('id_output_current_3').getContext('2d');
+	const context_output_current_4 = document.getElementById('id_output_current_4').getContext('2d');
+	const context_output_current_5 = document.getElementById('id_output_current_5').getContext('2d');
+	const context_output_current_6 = document.getElementById('id_output_current_6').getContext('2d');
+	const context_output_current_7 = document.getElementById('id_output_current_7').getContext('2d');
+	const context_output_voltage_0 = document.getElementById('id_output_voltage_0').getContext('2d');
+	const context_output_voltage_1 = document.getElementById('id_output_voltage_1').getContext('2d');
+	const context_output_voltage_2 = document.getElementById('id_output_voltage_2').getContext('2d');
+	const context_output_voltage_3 = document.getElementById('id_output_voltage_3').getContext('2d');
+	const context_output_voltage_4 = document.getElementById('id_output_voltage_4').getContext('2d');
+	const context_output_voltage_5 = document.getElementById('id_output_voltage_5').getContext('2d');
+	const context_output_voltage_6 = document.getElementById('id_output_voltage_6').getContext('2d');
+	const context_output_voltage_7 = document.getElementById('id_output_voltage_7').getContext('2d');
+	const context_tyre_presLF = document.getElementById('id_tyre_presLF').getContext('2d');
+	const context_tyre_presRF = document.getElementById('id_tyre_presRF').getContext('2d');
+	const context_tyre_presLR = document.getElementById('id_tyre_presLR').getContext('2d');
+	const context_tyre_presRR = document.getElementById('id_tyre_presRR').getContext('2d');
+	const context_susLF = document.getElementById('id_susLF').getContext('2d');
+	const context_susRF = document.getElementById('id_susRF').getContext('2d');
+	const context_susLR = document.getElementById('id_susLR').getContext('2d');
+	const context_susRR = document.getElementById('id_susRR').getContext('2d');
+	const context_accel = document.getElementById('id_accel').getContext('2d');
+	const context_gyro = document.getElementById('id_gyro').getContext('2d');
+	const context_altitude = document.getElementById('id_altitude').getContext('2d');
+	const context_gps_speed = document.getElementById('id_gps_speed').getContext('2d');
+
+	/* global variables */
+	line_chart_rpm = new Chart(context_rpm, config_rpm);
+	line_chart_curr_gear = new Chart(context_curr_gear, config_curr_gear);
+	line_chart_tps = new Chart(context_tps, config_tps);
+	line_chart_oil_pres = new Chart(context_oil_pres, config_oil_pres);
+	line_chart_coolant_temp = new Chart(context_coolant_temp, config_coolant_temp);
+	line_chart_fuel_pres = new Chart(context_fuel_pres, config_fuel_pres);
+	line_chart_lambda = new Chart(context_lambda, config_lambda);
+	line_chart_iat = new Chart(context_iat, config_iat);
+	line_chart_egt1 = new Chart(context_egt1, config_egt1);
+	line_chart_egt2 = new Chart(context_egt2, config_egt2);
+	line_chart_egt3 = new Chart(context_egt3, config_egt3);
+	line_chart_egt4 = new Chart(context_egt4, config_egt4);
+	line_chart_vehicle_speed = new Chart(context_vehicle_speed, config_vehicle_speed);
+	line_chart_map = new Chart(context_map, config_map);
+	line_chart_bps = new Chart(context_bps, config_bps);
+	line_chart_oil_temp = new Chart(context_oil_temp, config_oil_temp);
+
+	line_chart_water_in_stanga = new Chart(context_water_in_stanga, config_water_in_stanga);
+	line_chart_water_out_stanga = new Chart(context_water_out_stanga, config_water_out_stanga);
+	line_chart_aer_in_stanga = new Chart(context_aer_in_stanga, config_aer_in_stanga);
+	line_chart_aer_out_stanga = new Chart(context_aer_out_stanga, config_aer_out_stanga);
+	line_chart_manometru_stanga = new Chart(context_manometru_stanga, config_manometru_stanga);
+	line_chart_anemometru_stanga = new Chart(context_anemometru_stanga, config_anemometru_stanga);
+	line_chart_water_in_dreapta = new Chart(context_water_in_dreapta, config_water_in_dreapta);
+	line_chart_water_out_dreapta = new Chart(context_water_out_dreapta, config_water_out_dreapta);
+	line_chart_aer_in_dreapta = new Chart(context_aer_in_dreapta, config_aer_in_dreapta);
+	line_chart_aer_out_dreapta = new Chart(context_aer_out_dreapta, config_aer_out_dreapta);
+	line_chart_manometru_dreapta = new Chart(context_manometru_dreapta, config_manometru_dreapta);
+	line_chart_anemometru_dreapta = new Chart(context_anemometru_dreapta, config_anemometru_dreapta);
+
+
+	line_chart_lv_bat_volts = new Chart(context_lv_bat_volts, config_lv_bat_volts);
+	line_chart_in_voltage = new Chart(context_in_voltage, config_in_voltage);
+	line_chart_in_cur_bat = new Chart(context_in_cur_bat, config_in_cur_bat);
+	line_chart_in_cur_alt = new Chart(context_in_cur_alt, config_in_cur_alt);
+	line_chart_output_current_0 = new Chart(context_output_current_0, config_output_current_0);
+	line_chart_output_current_1 = new Chart(context_output_current_1, config_output_current_1);
+	line_chart_output_current_2 = new Chart(context_output_current_2, config_output_current_2);
+	line_chart_output_current_3 = new Chart(context_output_current_3, config_output_current_3);
+	line_chart_output_current_4 = new Chart(context_output_current_4, config_output_current_4);
+	line_chart_output_current_5 = new Chart(context_output_current_5, config_output_current_5);
+	line_chart_output_current_6 = new Chart(context_output_current_6, config_output_current_6);
+	line_chart_output_current_7 = new Chart(context_output_current_7, config_output_current_7);
+	line_chart_output_voltage_0 = new Chart(context_output_voltage_0, config_output_voltage_0);
+	line_chart_output_voltage_1 = new Chart(context_output_voltage_1, config_output_voltage_1);
+	line_chart_output_voltage_2 = new Chart(context_output_voltage_2, config_output_voltage_2);
+	line_chart_output_voltage_3 = new Chart(context_output_voltage_3, config_output_voltage_3);
+	line_chart_output_voltage_4 = new Chart(context_output_voltage_4, config_output_voltage_4);
+	line_chart_output_voltage_5 = new Chart(context_output_voltage_5, config_output_voltage_5);
+	line_chart_output_voltage_6 = new Chart(context_output_voltage_6, config_output_voltage_6);
+	line_chart_output_voltage_7 = new Chart(context_output_voltage_7, config_output_voltage_7);
+	line_chart_tyre_presLF = new Chart(context_tyre_presLF, config_tyre_presLF);
+	line_chart_tyre_presRF = new Chart(context_tyre_presRF, config_tyre_presRF);
+	line_chart_tyre_presLR = new Chart(context_tyre_presLR, config_tyre_presLR);
+	line_chart_tyre_presRR = new Chart(context_tyre_presRR, config_tyre_presRR);
+	line_chart_susLF = new Chart(context_susLF, config_susLF);
+	line_chart_susRF = new Chart(context_susRF, config_susRF);
+	line_chart_susLR = new Chart(context_susLR, config_susLR);
+	line_chart_susRR = new Chart(context_susRR, config_susRR);
+	line_chart_accel = new Chart(context_accel, config_accel);
+	line_chart_gyro = new Chart(context_gyro, config_gyro);
+	line_chart_altitude = new Chart(context_altitude, config_altitude);
+	line_chart_gps_speed = new Chart(context_gps_speed, config_gps_speed);
+}
+
+function setup()
+{
+	setup_charts();
+}
+
+function destroy_charts()
+{
+	line_chart_rpm.destroy();
+	line_chart_curr_gear.destroy();
+	line_chart_tps.destroy();
+	line_chart_oil_pres.destroy();
+	line_chart_coolant_temp.destroy();
+	line_chart_fuel_pres.destroy();
+	line_chart_lambda.destroy();
+	line_chart_iat.destroy();
+	line_chart_egt1.destroy();
+	line_chart_egt2.destroy();
+	line_chart_egt3.destroy();
+	line_chart_egt4.destroy();
+	line_chart_vehicle_speed.destroy();
+	line_chart_map.destroy();
+	line_chart_bps.destroy();
+	line_chart_oil_temp.destroy();
+
+	line_chart_water_in_stanga.destroy();
+	line_chart_water_out_stanga.destroy();
+	line_chart_aer_in_stanga.destroy();
+	line_chart_aer_out_stanga.destroy();
+	line_chart_manometru_stanga.destroy();
+	line_chart_anemometru_stanga.destroy();
+	line_chart_water_in_dreapta.destroy();
+	line_chart_water_out_dreapta.destroy();
+	line_chart_aer_in_dreapta.destroy();
+	line_chart_aer_out_dreapta.destroy();
+	line_chart_manometru_dreapta.destroy();
+	line_chart_anemometru_dreapta.destroy();
+
+	line_chart_lv_bat_volts.destroy();
+	line_chart_in_voltage.destroy();
+	line_chart_in_cur_bat.destroy();
+	line_chart_in_cur_alt.destroy();
+	line_chart_output_current_0.destroy();
+	line_chart_output_current_1.destroy();
+	line_chart_output_current_2.destroy();
+	line_chart_output_current_3.destroy();
+	line_chart_output_current_4.destroy();
+	line_chart_output_current_5.destroy();
+	line_chart_output_current_6.destroy();
+	line_chart_output_current_7.destroy();
+	line_chart_output_voltage_0.destroy();
+	line_chart_output_voltage_1.destroy();
+	line_chart_output_voltage_2.destroy();
+	line_chart_output_voltage_3.destroy();
+	line_chart_output_voltage_4.destroy();
+	line_chart_output_voltage_5.destroy();
+	line_chart_output_voltage_6.destroy();
+	line_chart_output_voltage_7.destroy();
+	line_chart_tyre_presLF.destroy();
+	line_chart_tyre_presRF.destroy();
+	line_chart_tyre_presLR.destroy();
+	line_chart_tyre_presRR.destroy();
+	line_chart_susLF.destroy();
+	line_chart_susRF.destroy();
+	line_chart_susLR.destroy();
+	line_chart_susRR.destroy();
+	line_chart_accel.destroy();
+	line_chart_gyro.destroy();
+	line_chart_altitude.destroy();
+	line_chart_gps_speed.destroy();
+}
+

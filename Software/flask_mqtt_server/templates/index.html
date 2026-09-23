@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UPBDrive DR05 Telemetry</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div>
+	<h4>UPDrive DR05 Telemetry</h4>
+	<button onclick='save_to_file()'>Save data</button>
+	<button onclick='load_from_file()'>Load data</button>
+	<input type="file" id="id_file_input">
+	<p><b>Warning:</b> Loading a file from storage will erase the current plotted data. Save it to a file if you want to keep this data. You can load data stored locally by the DAT system on the microsd card if you follow the steps provided in the documentation.</p>
+	</div>
+
+	<div>
+	<h6><b>Date and time of log: </b><p id="id_log_start_datetime">Unknown</p></h6>
+	</div>
+
+	<h5>ECU data</h5>
+	<h6>Gauge Cluster</h6>
+	<div class="row">
+		<div class="col">
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_vehicle_speed")'>Show/Hide plot</button>
+					<canvas id="id_vehicle_speed"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_bps")'>Show/Hide plot</button>
+					<canvas id="id_bps"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_tps")'>Show/Hide plot</button>
+					<canvas id="id_tps"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_rpm")'>Show/Hide plot</button>
+					<canvas id="id_rpm"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_curr_gear")'>Show/Hide plot</button>
+					<canvas id="id_curr_gear"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Fueling Data</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_map")'>Show/Hide plot</button>
+					<canvas id="id_map"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_fuel_pres")'>Show/Hide plot</button>
+					<canvas id="id_fuel_pres"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_iat")'>Show/Hide plot</button>
+					<canvas id="id_iat"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Exhaust Data (+ Coolant temp)</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_lambda")'>Show/Hide plot</button>
+					<canvas id="id_lambda"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_egt1")'>Show/Hide plot</button>
+					<canvas id="id_egt1"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_egt2")'>Show/Hide plot</button>
+					<canvas id="id_egt2"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_egt3")'>Show/Hide plot</button>
+					<canvas id="id_egt3"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_egt4")'>Show/Hide plot</button>
+					<canvas id="id_egt4"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_coolant_temp")'>Show/Hide plot</button>
+					<canvas id="id_coolant_temp"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Oil</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_oil_pres")'>Show/Hide plot</button>
+					<canvas id="id_oil_pres"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_oil_temp")'>Show/Hide plot</button>
+					<canvas id="id_oil_temp"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>Racire</h5>
+	<h6>Stanga</h5>
+	<h6>Apa</h5>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_water_in_stanga")'>Show/Hide plot</button>
+					<canvas id="id_water_in_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_water_out_stanga")'>Show/Hide plot</button>
+					<canvas id="id_water_out_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>aer</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_aer_in_stanga")'>Show/Hide plot</button>
+					<canvas id="id_aer_in_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_aer_out_stanga")'>Show/Hide plot</button>
+					<canvas id="id_aer_out_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Manometru si anemometru</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_manometru_stanga")'>Show/Hide plot</button>
+					<canvas id="id_manometru_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_anemometru_stanga")'>Show/Hide plot</button>
+					<canvas id="id_anemometru_stanga"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h6>Dreapta</h6>
+	<h6>Apa</h5>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_water_in_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_water_in_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_water_out_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_water_out_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>aer</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_aer_in_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_aer_in_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_aer_out_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_aer_out_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Manometru si anemometru</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_manometru_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_manometru_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_anemometru_dreapta")'>Show/Hide plot</button>
+					<canvas id="id_anemometru_dreapta"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>Suspensie</h5>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_susLF")'>Show/Hide plot</button>
+					<canvas id="id_susLF"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_susRF")'>Show/Hide plot</button>
+					<canvas id="id_susRF"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_susLR")'>Show/Hide plot</button>
+					<canvas id="id_susLR"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_susRR")'>Show/Hide plot</button>
+					<canvas id="id_susRR"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>PMU Data</h5>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_lv_bat_volts")'>Show/Hide plot</button>
+					<canvas id="id_lv_bat_volts"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_in_voltage")'>Show/Hide plot</button>
+					<canvas id="id_in_voltage"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_in_cur_bat")'>Show/Hide plot</button>
+					<canvas id="id_in_cur_bat"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_in_cur_alt")'>Show/Hide plot</button>
+					<canvas id="id_in_cur_alt"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h6>PMU output current</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_0")'>Show/Hide plot</button>
+					<canvas id="id_output_current_0"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_1")'>Show/Hide plot</button>
+					<canvas id="id_output_current_1"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_2")'>Show/Hide plot</button>
+					<canvas id="id_output_current_2"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_3")'>Show/Hide plot</button>
+					<canvas id="id_output_current_3"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_4")'>Show/Hide plot</button>
+					<canvas id="id_output_current_4"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_5")'>Show/Hide plot</button>
+					<canvas id="id_output_current_5"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_6")'>Show/Hide plot</button>
+					<canvas id="id_output_current_6"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_current_7")'>Show/Hide plot</button>
+					<canvas id="id_output_current_7"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h6>PMU output voltage</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_0")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_0"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_1")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_1"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_2")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_2"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_3")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_3"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_4")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_4"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_5")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_5"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_6")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_6"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_output_voltage_7")'>Show/Hide plot</button>
+					<canvas id="id_output_voltage_7"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>VDU data</h5>
+	<h6>Tyre pressure</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_tyre_presLF")'>Show/Hide plot</button>
+					<canvas id="id_tyre_presLF"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_tyre_presRF")'>Show/Hide plot</button>
+					<canvas id="id_tyre_presRF"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_tyre_presLR")'>Show/Hide plot</button>
+					<canvas id="id_tyre_presLR"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_tyre_presRR")'>Show/Hide plot</button>
+					<canvas id="id_tyre_presRR"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h6>Suspention</h6>
+	<h6>Acceleration + Gyro</h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_accel")'>Show/Hide plot</button>
+					<canvas id="id_accel"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_gyro")'>Show/Hide plot</button>
+					<canvas id="id_gyro"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>DAT data</h5>
+	<h6>Altitude and GPS speed (knots)<h6>
+	<div class="row">
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_altitude")'>Show/Hide plot</button>
+					<canvas id="id_altitude"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<div class="card-body">
+					<button onclick='toggle_plot("id_gps_speed")'>Show/Hide plot</button>
+					<canvas id="id_gps_speed"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h5>GPS location and latest time stamp (us since unix epoch)</h6>
+	<b>Long: </b><p id="id_long">Unknown</p>
+	<b>Lat: </b><p id="id_lat">Unknown</p>
+	
+	<h5>Safety Circuit Status</h5>
+	<b>Safety circuit status: </b><p id="id_scs">Unknown</p>
+</div>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+<script src="{{url_for('static', filename='chart_configs.js')}}"></script>
+<script src="{{url_for('static', filename='setup.js')}}"></script>
+<script src="{{url_for('static', filename='button_functions.js')}}"></script>
+<script src="{{url_for('static', filename='mqtt_data_functions.js')}}"></script>
+<script>
+	var all_data = [];
+	var live_data = 1;
+	var start_time_set = 0;
+
+	$(document).ready(function ()
+	{
+		/* setup charts */
+		setup();
+
+		/* the browser will warn the user that reloading the page will
+		 * discard all data. this will help the user remember to save
+		 * the data to a file
+		 */
+		window.onbeforeunload = function() {
+			return "Data will be lost if you leave the page, are you sure?";
+		};
+		window.onunload = function() {
+			return "Data will be lost if you leave the page, are you sure?";
+		};
+
+		var socket = io();
+		socket.on("mqtt_data", function(mqtt_data)
+		{
+			if (!live_data)
+				return;
+
+			/* no idea why, but if i don't put JSON.parse inside of
+			 * handle_data_packet aswell, then this variable won't
+			 * be passed as a json
+			*/
+			handle_dat_packet(mqtt_data);
+		}
+		);
+	}
+	);
+</script>
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mod")(type "KiCad")(uri "${KIPRJMOD}/../../../lib/mod")(options "")(descr ""))
+  (lib (name "waveshare")(type "KiCad")(uri "/home/joseph/embedded_systems/upbdrive/DR05/7.Component_Library/2.Data_acquisition_and_telemetry/mod")(options "")(descr ""))
+)

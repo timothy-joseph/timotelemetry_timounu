@@ -1,0 +1,3663 @@
+[
+	{
+		"timestamp": 7812,
+		"output_current_0": 53,
+		"output_current_1": 78,
+		"output_current_2": 20,
+		"output_current_3": 137,
+		"output_current_4": 140,
+		"output_current_5": 105,
+		"output_current_6": 206,
+		"output_current_7": 134
+	},
+	{
+		"timestamp": 46875,
+		"dash_selector": 13
+	},
+	{
+		"timestamp": 132812,
+		"susLF": 140,
+		"susRF": 217,
+		"susLR": 11,
+		"susRR": 82,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 234375,
+		"dash_selector": 82
+	},
+	{
+		"timestamp": 335937,
+		"rpm": 10200,
+		"curr_gear": 1,
+		"tps": 191,
+		"oil_pres": 250,
+		"coolant_temp": 237,
+		"fuel_pres": 31.000000,
+		"lambda": 0.968750,
+		"iat": 13.875000
+	},
+	{
+		"timestamp": 437500
+	},
+	{
+		"timestamp": 539062,
+		"output_current_0": 43,
+		"output_current_1": 227,
+		"output_current_2": 100,
+		"output_current_3": 199,
+		"output_current_4": 29,
+		"output_current_5": 203,
+		"output_current_6": 31,
+		"output_current_7": 113
+	},
+	{
+		"timestamp": 640625,
+		"lv_bat_volts": 7.250000,
+		"in_voltage": 21.875000,
+		"in_cur_bat": 3.125000,
+		"in_cur_alt": 14.625000
+	},
+	{
+		"timestamp": 734375
+	},
+	{
+		"timestamp": 835937,
+		"tyre_presLF": 14.500000,
+		"tyre_presRF": 22.750000,
+		"tyre_presLR": 22.875000,
+		"tyre_presRR": 1.625000
+	},
+	{
+		"timestamp": 937500,
+		"tyre_presLF": 21.750000,
+		"tyre_presRF": 31.875000,
+		"tyre_presLR": 1.500000,
+		"tyre_presRR": 6.875000
+	},
+	{
+		"timestamp": 1039062
+	},
+	{
+		"timestamp": 1140625,
+		"rpm": 13200,
+		"curr_gear": 90,
+		"tps": 217,
+		"oil_pres": 193,
+		"coolant_temp": 27,
+		"fuel_pres": 31.375000,
+		"lambda": 0.093750,
+		"iat": 20.375000
+	},
+	{
+		"timestamp": 1242187,
+		"output_current_0": 207,
+		"output_current_1": 44,
+		"output_current_2": 228,
+		"output_current_3": 137,
+		"output_current_4": 214,
+		"output_current_5": 101,
+		"output_current_6": 241,
+		"output_current_7": 124
+	},
+	{
+		"timestamp": 1343750,
+		"susLF": 163,
+		"susRF": 132,
+		"susLR": 182,
+		"susRR": 99,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 1445312,
+		"output_current_0": 155,
+		"output_current_1": 172,
+		"output_current_2": 63,
+		"output_current_3": 87,
+		"output_current_4": 52,
+		"output_current_5": 142,
+		"output_current_6": 200,
+		"output_current_7": 155
+	},
+	{
+		"timestamp": 1546875,
+		"output_current_0": 233,
+		"output_current_1": 183,
+		"output_current_2": 32,
+		"output_current_3": 236,
+		"output_current_4": 8,
+		"output_current_5": 116,
+		"output_current_6": 67,
+		"output_current_7": 84
+	},
+	{
+		"timestamp": 1640625,
+		"dash_selector": 198
+	},
+	{
+		"timestamp": 1742187,
+		"tyre_presLF": 14.125000,
+		"tyre_presRF": 2.000000,
+		"tyre_presLR": 8.250000,
+		"tyre_presRR": 26.750000
+	},
+	{
+		"timestamp": 1843750,
+		"dash_selector": 164
+	},
+	{
+		"timestamp": 1945312
+	},
+	{
+		"timestamp": 2046875
+	},
+	{
+		"timestamp": 2148437,
+		"susLF": 201,
+		"susRF": 121,
+		"susLR": 49,
+		"susRR": 143,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 2250000
+	},
+	{
+		"timestamp": 2351562
+	},
+	{
+		"timestamp": 2445312,
+		"lv_bat_volts": 18.875000,
+		"in_voltage": 23.250000,
+		"in_cur_bat": 21.125000,
+		"in_cur_alt": 3.000000
+	},
+	{
+		"timestamp": 2546875,
+		"rpm": 21600,
+		"curr_gear": 93,
+		"tps": 62,
+		"oil_pres": 35,
+		"coolant_temp": 152,
+		"fuel_pres": 17.875000,
+		"lambda": 1.304688,
+		"iat": 5.250000
+	},
+	{
+		"timestamp": 2648437,
+		"output_voltage_0": 168,
+		"output_voltage_1": 77,
+		"output_voltage_2": 203,
+		"output_voltage_3": 108,
+		"output_voltage_4": 34,
+		"output_voltage_5": 135,
+		"output_voltage_6": 64,
+		"output_voltage_7": 213
+	},
+	{
+		"timestamp": 2750000,
+		"lv_bat_volts": 19.375000,
+		"in_voltage": 6.750000,
+		"in_cur_bat": 12.625000,
+		"in_cur_alt": 8.125000
+	},
+	{
+		"timestamp": 2851562,
+		"output_voltage_0": 33,
+		"output_voltage_1": 113,
+		"output_voltage_2": 122,
+		"output_voltage_3": 245,
+		"output_voltage_4": 225,
+		"output_voltage_5": 101,
+		"output_voltage_6": 188,
+		"output_voltage_7": 102
+	},
+	{
+		"timestamp": 2953125,
+		"lv_bat_volts": 30.625000,
+		"in_voltage": 1.000000,
+		"in_cur_bat": 14.750000,
+		"in_cur_alt": 6.375000
+	},
+	{
+		"timestamp": 3054687,
+		"dash_selector": 93
+	},
+	{
+		"timestamp": 3156250,
+		"dash_selector": 49
+	},
+	{
+		"timestamp": 3257812,
+		"dash_selector": 111
+	},
+	{
+		"timestamp": 3359375,
+		"susLF": 48,
+		"susRF": 196,
+		"susLR": 150,
+		"susRR": 188,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 2453125,
+		"dash_selector": 34
+	},
+	{
+		"timestamp": 3554687
+	},
+	{
+		"timestamp": 3656250,
+		"tyre_presLF": 5.125000,
+		"tyre_presRF": 7.250000,
+		"tyre_presLR": 8.250000,
+		"tyre_presRR": 3.125000
+	},
+	{
+		"timestamp": 3757812,
+		"output_current_0": 249,
+		"output_current_1": 25,
+		"output_current_2": 122,
+		"output_current_3": 42,
+		"output_current_4": 207,
+		"output_current_5": 176,
+		"output_current_6": 47,
+		"output_current_7": 113
+	},
+	{
+		"timestamp": 3859375,
+		"rpm": 9000,
+		"curr_gear": 40,
+		"tps": 232,
+		"oil_pres": 24,
+		"coolant_temp": 151,
+		"fuel_pres": 18.875000,
+		"lambda": 1.796875,
+		"iat": 8.750000
+	},
+	{
+		"timestamp": 3960937,
+		"lv_bat_volts": 31.750000,
+		"in_voltage": 10.375000,
+		"in_cur_bat": 1.000000,
+		"in_cur_alt": 1.375000
+	},
+	{
+		"timestamp": 4062500,
+		"rpm": 17600,
+		"curr_gear": 19,
+		"tps": 121,
+		"oil_pres": 3,
+		"coolant_temp": 223,
+		"fuel_pres": 4.250000,
+		"lambda": 1.757812,
+		"iat": 19.250000
+	},
+	{
+		"timestamp": 4164062,
+		"dash_selector": 128
+	},
+	{
+		"timestamp": 4257812,
+		"lv_bat_volts": 15.750000,
+		"in_voltage": 21.500000,
+		"in_cur_bat": 12.250000,
+		"in_cur_alt": 6.375000
+	},
+	{
+		"timestamp": 4359375,
+		"rpm": 25300,
+		"curr_gear": 252,
+		"tps": 159,
+		"oil_pres": 245,
+		"coolant_temp": 38,
+		"fuel_pres": 12.500000,
+		"lambda": 0.617188,
+		"iat": 27.625000
+	},
+	{
+		"timestamp": 4460937,
+		"egt1": 12.500000,
+		"egt2": 543.750000,
+		"egt3": 1593.750000,
+		"egt4": 1400.000000,
+		"vehicle_speed": 154,
+		"map": 136,
+		"bps": 46,
+		"oil_temp": 146
+	},
+	{
+		"timestamp": 4562500,
+		"rpm": 400,
+		"curr_gear": 94,
+		"tps": 181,
+		"oil_pres": 85,
+		"coolant_temp": 40,
+		"fuel_pres": 3.250000,
+		"lambda": 1.398438,
+		"iat": 17.125000
+	},
+	{
+		"timestamp": 4664062,
+		"rpm": 23300,
+		"curr_gear": 186,
+		"tps": 89,
+		"oil_pres": 75,
+		"coolant_temp": 195,
+		"fuel_pres": 26.000000,
+		"lambda": 1.726562,
+		"iat": 23.375000
+	},
+	{
+		"timestamp": 4765625,
+		"lv_bat_volts": 17.875000,
+		"in_voltage": 21.250000,
+		"in_cur_bat": 11.500000,
+		"in_cur_alt": 4.000000
+	},
+	{
+		"timestamp": 4867187,
+		"lv_bat_volts": 14.250000,
+		"in_voltage": 19.250000,
+		"in_cur_bat": 25.875000,
+		"in_cur_alt": 29.250000
+	},
+	{
+		"timestamp": 4968750,
+		"output_current_0": 220,
+		"output_current_1": 164,
+		"output_current_2": 8,
+		"output_current_3": 5,
+		"output_current_4": 174,
+		"output_current_5": 17,
+		"output_current_6": 73,
+		"output_current_7": 55
+	},
+	{
+		"timestamp": 5070312,
+		"dash_selector": 168
+	},
+	{
+		"timestamp": 5171875,
+		"egt1": 1062.500000,
+		"egt2": 1025.000000,
+		"egt3": 200.000000,
+		"egt4": 1425.000000,
+		"vehicle_speed": 74,
+		"map": 224,
+		"bps": 240,
+		"oil_temp": 238
+	},
+	{
+		"timestamp": 5265625,
+		"susLF": 226,
+		"susRF": 27,
+		"susLR": 32,
+		"susRR": 211,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 5367187,
+		"rpm": 12500,
+		"curr_gear": 91,
+		"tps": 218,
+		"oil_pres": 72,
+		"coolant_temp": 3,
+		"fuel_pres": 25.375000,
+		"lambda": 1.320312,
+		"iat": 15.750000
+	},
+	{
+		"timestamp": 5468750,
+		"output_current_0": 16,
+		"output_current_1": 162,
+		"output_current_2": 21,
+		"output_current_3": 242,
+		"output_current_4": 15,
+		"output_current_5": 132,
+		"output_current_6": 155,
+		"output_current_7": 32
+	},
+	{
+		"timestamp": 5570312,
+		"output_current_0": 196,
+		"output_current_1": 59,
+		"output_current_2": 46,
+		"output_current_3": 157,
+		"output_current_4": 6,
+		"output_current_5": 62,
+		"output_current_6": 128,
+		"output_current_7": 117
+	},
+	{
+		"timestamp": 5671875,
+		"susLF": 146,
+		"susRF": 15,
+		"susLR": 99,
+		"susRR": 196,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 5773437,
+		"tyre_presLF": 23.375000,
+		"tyre_presRF": 19.750000,
+		"tyre_presLR": 0.625000,
+		"tyre_presRR": 10.750000
+	},
+	{
+		"timestamp": 5875000,
+		"lv_bat_volts": 27.750000,
+		"in_voltage": 2.750000,
+		"in_cur_bat": 23.875000,
+		"in_cur_alt": 13.625000
+	},
+	{
+		"timestamp": 5976562,
+		"output_voltage_0": 208,
+		"output_voltage_1": 17,
+		"output_voltage_2": 150,
+		"output_voltage_3": 44,
+		"output_voltage_4": 20,
+		"output_voltage_5": 221,
+		"output_voltage_6": 115,
+		"output_voltage_7": 244
+	},
+	{
+		"timestamp": 6078125,
+		"output_current_0": 158,
+		"output_current_1": 20,
+		"output_current_2": 37,
+		"output_current_3": 97,
+		"output_current_4": 179,
+		"output_current_5": 61,
+		"output_current_6": 33,
+		"output_current_7": 153
+	},
+	{
+		"timestamp": 6179687,
+		"output_voltage_0": 41,
+		"output_voltage_1": 181,
+		"output_voltage_2": 81,
+		"output_voltage_3": 233,
+		"output_voltage_4": 191,
+		"output_voltage_5": 63,
+		"output_voltage_6": 72,
+		"output_voltage_7": 40
+	},
+	{
+		"timestamp": 6281250,
+		"susLF": 218,
+		"susRF": 250,
+		"susLR": 209,
+		"susRR": 96,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 6375000,
+		"lv_bat_volts": 17.875000,
+		"in_voltage": 27.875000,
+		"in_cur_bat": 21.500000,
+		"in_cur_alt": 14.125000
+	},
+	{
+		"timestamp": 6476562,
+		"rpm": 4200,
+		"curr_gear": 43,
+		"tps": 77,
+		"oil_pres": 2,
+		"coolant_temp": 170,
+		"fuel_pres": 30.375000,
+		"lambda": 0.281250,
+		"iat": 9.500000
+	},
+	{
+		"timestamp": 6578125,
+		"tyre_presLF": 17.875000,
+		"tyre_presRF": 9.125000,
+		"tyre_presLR": 30.875000,
+		"tyre_presRR": 6.125000
+	},
+	{
+		"timestamp": 6679687,
+		"rpm": 2000,
+		"curr_gear": 65,
+		"tps": 31,
+		"oil_pres": 55,
+		"coolant_temp": 187,
+		"fuel_pres": 5.875000,
+		"lambda": 0.140625,
+		"iat": 19.375000
+	},
+	{
+		"timestamp": 6781250,
+		"output_current_0": 39,
+		"output_current_1": 95,
+		"output_current_2": 126,
+		"output_current_3": 252,
+		"output_current_4": 159,
+		"output_current_5": 117,
+		"output_current_6": 60,
+		"output_current_7": 84
+	},
+	{
+		"timestamp": 6882812,
+		"output_current_0": 31,
+		"output_current_1": 50,
+		"output_current_2": 175,
+		"output_current_3": 194,
+		"output_current_4": 16,
+		"output_current_5": 63,
+		"output_current_6": 125,
+		"output_current_7": 100
+	},
+	{
+		"timestamp": 6984375,
+		"output_voltage_0": 34,
+		"output_voltage_1": 105,
+		"output_voltage_2": 46,
+		"output_voltage_3": 46,
+		"output_voltage_4": 130,
+		"output_voltage_5": 56,
+		"output_voltage_6": 246,
+		"output_voltage_7": 233
+	},
+	{
+		"timestamp": 7085937,
+		"dash_selector": 38
+	},
+	{
+		"timestamp": 7187500,
+		"egt1": 1556.250000,
+		"egt2": 612.500000,
+		"egt3": 550.000000,
+		"egt4": 918.750000,
+		"vehicle_speed": 26,
+		"map": 46,
+		"bps": 21,
+		"oil_temp": 234
+	},
+	{
+		"timestamp": 7289062,
+		"tyre_presLF": 4.625000,
+		"tyre_presRF": 21.625000,
+		"tyre_presLR": 30.250000,
+		"tyre_presRR": 9.750000
+	},
+	{
+		"timestamp": 7390625
+	},
+	{
+		"timestamp": 7484375,
+		"dash_selector": 44
+	},
+	{
+		"timestamp": 7585937,
+		"output_voltage_0": 220,
+		"output_voltage_1": 223,
+		"output_voltage_2": 127,
+		"output_voltage_3": 197,
+		"output_voltage_4": 237,
+		"output_voltage_5": 67,
+		"output_voltage_6": 17,
+		"output_voltage_7": 120
+	},
+	{
+		"timestamp": 7687500
+	},
+	{
+		"timestamp": 7789062,
+		"lv_bat_volts": 26.750000,
+		"in_voltage": 22.125000,
+		"in_cur_bat": 6.500000,
+		"in_cur_alt": 21.250000
+	},
+	{
+		"timestamp": 7890625,
+		"egt1": 43.750000,
+		"egt2": 1062.500000,
+		"egt3": 506.250000,
+		"egt4": 1137.500000,
+		"vehicle_speed": 253,
+		"map": 209,
+		"bps": 78,
+		"oil_temp": 155
+	},
+	{
+		"timestamp": 7992187
+	},
+	{
+		"timestamp": 8093750,
+		"rpm": 12900,
+		"curr_gear": 154,
+		"tps": 0,
+		"oil_pres": 14,
+		"coolant_temp": 71,
+		"fuel_pres": 16.500000,
+		"lambda": 0.031250,
+		"iat": 2.875000
+	},
+	{
+		"timestamp": 8195312,
+		"susLF": 21,
+		"susRF": 35,
+		"susLR": 207,
+		"susRR": 160,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 8296875,
+		"egt1": 1031.250000,
+		"egt2": 925.000000,
+		"egt3": 1187.500000,
+		"egt4": 1462.500000,
+		"vehicle_speed": 248,
+		"map": 157,
+		"bps": 163,
+		"oil_temp": 0
+	},
+	{
+		"timestamp": 8390625,
+		"output_voltage_0": 193,
+		"output_voltage_1": 124,
+		"output_voltage_2": 179,
+		"output_voltage_3": 69,
+		"output_voltage_4": 233,
+		"output_voltage_5": 6,
+		"output_voltage_6": 126,
+		"output_voltage_7": 17
+	},
+	{
+		"timestamp": 8492187
+	},
+	{
+		"timestamp": 8593750
+	},
+	{
+		"timestamp": 8695312,
+		"dash_selector": 3
+	},
+	{
+		"timestamp": 8796875,
+		"tyre_presLF": 26.625000,
+		"tyre_presRF": 27.625000,
+		"tyre_presLR": 31.875000,
+		"tyre_presRR": 11.625000
+	},
+	{
+		"timestamp": 8898437,
+		"rpm": 0,
+		"curr_gear": 166,
+		"tps": 101,
+		"oil_pres": 136,
+		"coolant_temp": 163,
+		"fuel_pres": 23.125000,
+		"lambda": 0.703125,
+		"iat": 21.000000
+	},
+	{
+		"timestamp": 9000000,
+		"lv_bat_volts": 28.000000,
+		"in_voltage": 25.250000,
+		"in_cur_bat": 30.625000,
+		"in_cur_alt": 8.500000
+	},
+	{
+		"timestamp": 9101562
+	},
+	{
+		"timestamp": 9203125,
+		"egt1": 1287.500000,
+		"egt2": 925.000000,
+		"egt3": 1462.500000,
+		"egt4": 1050.000000,
+		"vehicle_speed": 167,
+		"map": 41,
+		"bps": 63,
+		"oil_temp": 99
+	},
+	{
+		"timestamp": 9296875
+	},
+	{
+		"timestamp": 9398437,
+		"tyre_presLF": 24.625000,
+		"tyre_presRF": 15.750000,
+		"tyre_presLR": 5.875000,
+		"tyre_presRR": 15.500000
+	},
+	{
+		"timestamp": 9500000,
+		"egt1": 450.000000,
+		"egt2": 706.250000,
+		"egt3": 1275.000000,
+		"egt4": 862.500000,
+		"vehicle_speed": 28,
+		"map": 65,
+		"bps": 144,
+		"oil_temp": 156
+	},
+	{
+		"timestamp": 9601562,
+		"rpm": 24600,
+		"curr_gear": 232,
+		"tps": 227,
+		"oil_pres": 44,
+		"coolant_temp": 98,
+		"fuel_pres": 17.500000,
+		"lambda": 0.328125,
+		"iat": 22.250000
+	},
+	{
+		"timestamp": 9703125,
+		"output_current_0": 124,
+		"output_current_1": 101,
+		"output_current_2": 120,
+		"output_current_3": 202,
+		"output_current_4": 18,
+		"output_current_5": 10,
+		"output_current_6": 228,
+		"output_current_7": 2
+	},
+	{
+		"timestamp": 9804687,
+		"susLF": 160,
+		"susRF": 221,
+		"susLR": 35,
+		"susRR": 73,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 9906250
+	},
+	{
+		"timestamp": 10007812,
+		"output_current_0": 136,
+		"output_current_1": 226,
+		"output_current_2": 140,
+		"output_current_3": 136,
+		"output_current_4": 44,
+		"output_current_5": 134,
+		"output_current_6": 84,
+		"output_current_7": 178
+	},
+	{
+		"timestamp": 10109375,
+		"tyre_presLF": 6.625000,
+		"tyre_presRF": 20.875000,
+		"tyre_presLR": 27.750000,
+		"tyre_presRR": 0.375000
+	},
+	{
+		"timestamp": 10210937
+	},
+	{
+		"timestamp": 10304687,
+		"dash_selector": 52
+	},
+	{
+		"timestamp": 10406250
+	},
+	{
+		"timestamp": 10507812,
+		"output_current_0": 235,
+		"output_current_1": 15,
+		"output_current_2": 167,
+		"output_current_3": 66,
+		"output_current_4": 127,
+		"output_current_5": 147,
+		"output_current_6": 190,
+		"output_current_7": 87
+	},
+	{
+		"timestamp": 10609375,
+		"dash_selector": 153
+	},
+	{
+		"timestamp": 10710937,
+		"rpm": 8700,
+		"curr_gear": 253,
+		"tps": 37,
+		"oil_pres": 95,
+		"coolant_temp": 205,
+		"fuel_pres": 16.125000,
+		"lambda": 0.359375,
+		"iat": 5.750000
+	},
+	{
+		"timestamp": 10812500,
+		"rpm": 24200,
+		"curr_gear": 98,
+		"tps": 211,
+		"oil_pres": 238,
+		"coolant_temp": 123,
+		"fuel_pres": 8.375000,
+		"lambda": 0.632812,
+		"iat": 10.625000
+	},
+	{
+		"timestamp": 10914062,
+		"egt1": 712.500000,
+		"egt2": 1518.750000,
+		"egt3": 18.750000,
+		"egt4": 1362.500000,
+		"vehicle_speed": 207,
+		"map": 205,
+		"bps": 255,
+		"oil_temp": 229
+	},
+	{
+		"timestamp": 11015625,
+		"dash_selector": 8
+	},
+	{
+		"timestamp": 11117187,
+		"tyre_presLF": 26.250000,
+		"tyre_presRF": 23.125000,
+		"tyre_presLR": 23.500000,
+		"tyre_presRR": 12.750000
+	},
+	{
+		"timestamp": 11218750,
+		"output_voltage_0": 173,
+		"output_voltage_1": 241,
+		"output_voltage_2": 154,
+		"output_voltage_3": 41,
+		"output_voltage_4": 1,
+		"output_voltage_5": 230,
+		"output_voltage_6": 251,
+		"output_voltage_7": 157
+	},
+	{
+		"timestamp": 11312500,
+		"tyre_presLF": 25.125000,
+		"tyre_presRF": 15.625000,
+		"tyre_presLR": 29.125000,
+		"tyre_presRR": 10.625000
+	},
+	{
+		"timestamp": 11414062,
+		"dash_selector": 93
+	},
+	{
+		"timestamp": 11515625,
+		"egt1": 1556.250000,
+		"egt2": 18.750000,
+		"egt3": 981.250000,
+		"egt4": 1312.500000,
+		"vehicle_speed": 27,
+		"map": 8,
+		"bps": 74,
+		"oil_temp": 165
+	},
+	{
+		"timestamp": 11617187,
+		"rpm": 400,
+		"curr_gear": 180,
+		"tps": 93,
+		"oil_pres": 166,
+		"coolant_temp": 141,
+		"fuel_pres": 2.000000,
+		"lambda": 1.398438,
+		"iat": 24.625000
+	},
+	{
+		"timestamp": 11718750,
+		"susLF": 181,
+		"susRF": 77,
+		"susLR": 175,
+		"susRR": 42,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 11820312,
+		"dash_selector": 240
+	},
+	{
+		"timestamp": 11921875
+	},
+	{
+		"timestamp": 12023437,
+		"tyre_presLF": 8.000000,
+		"tyre_presRF": 21.750000,
+		"tyre_presLR": 10.000000,
+		"tyre_presRR": 20.000000
+	},
+	{
+		"timestamp": 12117187,
+		"dash_selector": 196
+	},
+	{
+		"timestamp": 12218750,
+		"dash_selector": 111
+	},
+	{
+		"timestamp": 12320312,
+		"egt1": 1431.250000,
+		"egt2": 837.500000,
+		"egt3": 1493.750000,
+		"egt4": 1100.000000,
+		"vehicle_speed": 137,
+		"map": 184,
+		"bps": 185,
+		"oil_temp": 232
+	},
+	{
+		"timestamp": 12421875,
+		"output_current_0": 73,
+		"output_current_1": 118,
+		"output_current_2": 138,
+		"output_current_3": 42,
+		"output_current_4": 150,
+		"output_current_5": 92,
+		"output_current_6": 201,
+		"output_current_7": 209
+	},
+	{
+		"timestamp": 12523437,
+		"tyre_presLF": 7.000000,
+		"tyre_presRF": 5.000000,
+		"tyre_presLR": 23.125000,
+		"tyre_presRR": 26.750000
+	},
+	{
+		"timestamp": 12625000,
+		"output_current_0": 200,
+		"output_current_1": 62,
+		"output_current_2": 28,
+		"output_current_3": 3,
+		"output_current_4": 24,
+		"output_current_5": 56,
+		"output_current_6": 252,
+		"output_current_7": 254
+	},
+	{
+		"timestamp": 12726562,
+		"rpm": 12600,
+		"curr_gear": 241,
+		"tps": 200,
+		"oil_pres": 213,
+		"coolant_temp": 6,
+		"fuel_pres": 1.500000,
+		"lambda": 0.132812,
+		"iat": 18.500000
+	},
+	{
+		"timestamp": 12828125,
+		"susLF": 45,
+		"susRF": 178,
+		"susLR": 51,
+		"susRR": 193,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 12929687,
+		"susLF": 35,
+		"susRF": 110,
+		"susLR": 48,
+		"susRR": 212,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 13031250
+	},
+	{
+		"timestamp": 13132812
+	},
+	{
+		"timestamp": 13226562,
+		"rpm": 1400,
+		"curr_gear": 203,
+		"tps": 156,
+		"oil_pres": 196,
+		"coolant_temp": 19,
+		"fuel_pres": 5.000000,
+		"lambda": 1.843750,
+		"iat": 20.875000
+	},
+	{
+		"timestamp": 13328125,
+		"rpm": 23900,
+		"curr_gear": 70,
+		"tps": 32,
+		"oil_pres": 50,
+		"coolant_temp": 101,
+		"fuel_pres": 3.000000,
+		"lambda": 1.742188,
+		"iat": 13.375000
+	},
+	{
+		"timestamp": 13429687,
+		"lv_bat_volts": 1.000000,
+		"in_voltage": 9.875000,
+		"in_cur_bat": 21.750000,
+		"in_cur_alt": 26.375000
+	},
+	{
+		"timestamp": 13531250,
+		"rpm": 7200,
+		"curr_gear": 81,
+		"tps": 253,
+		"oil_pres": 129,
+		"coolant_temp": 155,
+		"fuel_pres": 9.875000,
+		"lambda": 1.328125,
+		"iat": 8.500000
+	},
+	{
+		"timestamp": 13632812,
+		"susLF": 186,
+		"susRF": 229,
+		"susLR": 246,
+		"susRR": 96,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 13734375,
+		"tyre_presLF": 4.250000,
+		"tyre_presRF": 2.250000,
+		"tyre_presLR": 5.125000,
+		"tyre_presRR": 21.250000
+	},
+	{
+		"timestamp": 13835937,
+		"dash_selector": 246
+	},
+	{
+		"timestamp": 13937500,
+		"tyre_presLF": 17.875000,
+		"tyre_presRF": 3.125000,
+		"tyre_presLR": 3.250000,
+		"tyre_presRR": 13.625000
+	},
+	{
+		"timestamp": 14039062,
+		"output_voltage_0": 53,
+		"output_voltage_1": 67,
+		"output_voltage_2": 41,
+		"output_voltage_3": 89,
+		"output_voltage_4": 219,
+		"output_voltage_5": 234,
+		"output_voltage_6": 43,
+		"output_voltage_7": 27
+	},
+	{
+		"timestamp": 14132812,
+		"tyre_presLF": 13.500000,
+		"tyre_presRF": 2.250000,
+		"tyre_presLR": 29.750000,
+		"tyre_presRR": 3.000000
+	},
+	{
+		"timestamp": 14234375,
+		"susLF": 187,
+		"susRF": 76,
+		"susLR": 160,
+		"susRR": 237,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 14335937,
+		"tyre_presLF": 11.625000,
+		"tyre_presRF": 7.000000,
+		"tyre_presLR": 17.875000,
+		"tyre_presRR": 25.625000
+	},
+	{
+		"timestamp": 14437500
+	},
+	{
+		"timestamp": 14539062,
+		"lv_bat_volts": 14.375000,
+		"in_voltage": 25.000000,
+		"in_cur_bat": 28.750000,
+		"in_cur_alt": 6.500000
+	},
+	{
+		"timestamp": 14640625,
+		"rpm": 12200,
+		"curr_gear": 140,
+		"tps": 238,
+		"oil_pres": 111,
+		"coolant_temp": 213,
+		"fuel_pres": 7.750000,
+		"lambda": 1.054688,
+		"iat": 5.500000
+	},
+	{
+		"timestamp": 14742187,
+		"lv_bat_volts": 10.125000,
+		"in_voltage": 29.375000,
+		"in_cur_bat": 2.375000,
+		"in_cur_alt": 9.750000
+	},
+	{
+		"timestamp": 14843750,
+		"susLF": 120,
+		"susRF": 57,
+		"susLR": 132,
+		"susRR": 87,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 14945312,
+		"egt1": 1093.750000,
+		"egt2": 781.250000,
+		"egt3": 1150.000000,
+		"egt4": 856.250000,
+		"vehicle_speed": 192,
+		"map": 131,
+		"bps": 221,
+		"oil_temp": 14
+	},
+	{
+		"timestamp": 15039062,
+		"dash_selector": 196
+	},
+	{
+		"timestamp": 15140625,
+		"tyre_presLF": 26.750000,
+		"tyre_presRF": 24.750000,
+		"tyre_presLR": 23.250000,
+		"tyre_presRR": 0.375000
+	},
+	{
+		"timestamp": 15242187,
+		"dash_selector": 49
+	},
+	{
+		"timestamp": 15343750
+	},
+	{
+		"timestamp": 15445312,
+		"rpm": 6300,
+		"curr_gear": 61,
+		"tps": 223,
+		"oil_pres": 32,
+		"coolant_temp": 156,
+		"fuel_pres": 23.125000,
+		"lambda": 0.710938,
+		"iat": 27.875000
+	},
+	{
+		"timestamp": 15546875,
+		"output_voltage_0": 196,
+		"output_voltage_1": 79,
+		"output_voltage_2": 155,
+		"output_voltage_3": 227,
+		"output_voltage_4": 110,
+		"output_voltage_5": 110,
+		"output_voltage_6": 226,
+		"output_voltage_7": 3
+	},
+	{
+		"timestamp": 15648437,
+		"output_current_0": 87,
+		"output_current_1": 221,
+		"output_current_2": 1,
+		"output_current_3": 70,
+		"output_current_4": 50,
+		"output_current_5": 220,
+		"output_current_6": 242,
+		"output_current_7": 216
+	},
+	{
+		"timestamp": 15750000,
+		"egt1": 775.000000,
+		"egt2": 443.750000,
+		"egt3": 650.000000,
+		"egt4": 318.750000,
+		"vehicle_speed": 110,
+		"map": 194,
+		"bps": 91,
+		"oil_temp": 125
+	},
+	{
+		"timestamp": 15851562,
+		"rpm": 11400,
+		"curr_gear": 15,
+		"tps": 11,
+		"oil_pres": 132,
+		"coolant_temp": 210,
+		"fuel_pres": 9.875000,
+		"lambda": 0.070312,
+		"iat": 16.250000
+	},
+	{
+		"timestamp": 15953125,
+		"dash_selector": 145
+	},
+	{
+		"timestamp": 16054687
+	},
+	{
+		"timestamp": 16148437,
+		"dash_selector": 216
+	},
+	{
+		"timestamp": 16250000,
+		"rpm": 8500,
+		"curr_gear": 242,
+		"tps": 248,
+		"oil_pres": 131,
+		"coolant_temp": 6,
+		"fuel_pres": 17.250000,
+		"lambda": 0.054688,
+		"iat": 5.875000
+	},
+	{
+		"timestamp": 16351562,
+		"susLF": 131,
+		"susRF": 198,
+		"susLR": 131,
+		"susRR": 27,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 15453125,
+		"lv_bat_volts": 20.000000,
+		"in_voltage": 14.250000,
+		"in_cur_bat": 13.625000,
+		"in_cur_alt": 27.250000
+	},
+	{
+		"timestamp": 16554687,
+		"tyre_presLF": 3.250000,
+		"tyre_presRF": 15.375000,
+		"tyre_presLR": 11.250000,
+		"tyre_presRR": 18.250000
+	},
+	{
+		"timestamp": 16656250,
+		"dash_selector": 216
+	},
+	{
+		"timestamp": 16757812,
+		"output_voltage_0": 22,
+		"output_voltage_1": 26,
+		"output_voltage_2": 69,
+		"output_voltage_3": 254,
+		"output_voltage_4": 25,
+		"output_voltage_5": 110,
+		"output_voltage_6": 187,
+		"output_voltage_7": 37
+	},
+	{
+		"timestamp": 16859375,
+		"susLF": 154,
+		"susRF": 237,
+		"susLR": 170,
+		"susRR": 155,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 16953125,
+		"rpm": 800,
+		"curr_gear": 77,
+		"tps": 240,
+		"oil_pres": 75,
+		"coolant_temp": 144,
+		"fuel_pres": 22.375000,
+		"lambda": 1.898438,
+		"iat": 9.000000
+	},
+	{
+		"timestamp": 17054687,
+		"susLF": 212,
+		"susRF": 88,
+		"susLR": 129,
+		"susRR": 132,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 17156250
+	},
+	{
+		"timestamp": 17257812,
+		"rpm": 22500,
+		"curr_gear": 40,
+		"tps": 37,
+		"oil_pres": 129,
+		"coolant_temp": 171,
+		"fuel_pres": 21.125000,
+		"lambda": 0.234375,
+		"iat": 29.375000
+	},
+	{
+		"timestamp": 17359375,
+		"tyre_presLF": 9.500000,
+		"tyre_presRF": 9.625000,
+		"tyre_presLR": 7.500000,
+		"tyre_presRR": 4.625000
+	},
+	{
+		"timestamp": 17460937,
+		"susLF": 97,
+		"susRF": 208,
+		"susLR": 145,
+		"susRR": 176,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 17562500,
+		"dash_selector": 72
+	},
+	{
+		"timestamp": 17664062,
+		"lv_bat_volts": 25.500000,
+		"in_voltage": 17.875000,
+		"in_cur_bat": 19.500000,
+		"in_cur_alt": 7.875000
+	},
+	{
+		"timestamp": 17765625,
+		"dash_selector": 178
+	},
+	{
+		"timestamp": 17867187,
+		"lv_bat_volts": 22.125000,
+		"in_voltage": 0.500000,
+		"in_cur_bat": 18.875000,
+		"in_cur_alt": 1.625000
+	},
+	{
+		"timestamp": 17960937,
+		"lv_bat_volts": 16.000000,
+		"in_voltage": 25.375000,
+		"in_cur_bat": 21.125000,
+		"in_cur_alt": 20.125000
+	},
+	{
+		"timestamp": 18062500,
+		"dash_selector": 73
+	},
+	{
+		"timestamp": 18164062,
+		"output_current_0": 89,
+		"output_current_1": 72,
+		"output_current_2": 60,
+		"output_current_3": 216,
+		"output_current_4": 118,
+		"output_current_5": 143,
+		"output_current_6": 102,
+		"output_current_7": 70
+	},
+	{
+		"timestamp": 18265625,
+		"egt1": 1456.250000,
+		"egt2": 1062.500000,
+		"egt3": 1306.250000,
+		"egt4": 93.750000,
+		"vehicle_speed": 182,
+		"map": 237,
+		"bps": 200,
+		"oil_temp": 6
+	},
+	{
+		"timestamp": 18367187
+	},
+	{
+		"timestamp": 18468750,
+		"tyre_presLF": 24.375000,
+		"tyre_presRF": 9.125000,
+		"tyre_presLR": 4.875000,
+		"tyre_presRR": 5.750000
+	},
+	{
+		"timestamp": 18570312
+	},
+	{
+		"timestamp": 18671875,
+		"lv_bat_volts": 16.750000,
+		"in_voltage": 5.375000,
+		"in_cur_bat": 22.000000,
+		"in_cur_alt": 5.125000
+	},
+	{
+		"timestamp": 18773437,
+		"output_voltage_0": 242,
+		"output_voltage_1": 94,
+		"output_voltage_2": 9,
+		"output_voltage_3": 22,
+		"output_voltage_4": 112,
+		"output_voltage_5": 167,
+		"output_voltage_6": 224,
+		"output_voltage_7": 166
+	},
+	{
+		"timestamp": 18867187
+	},
+	{
+		"timestamp": 18968750
+	},
+	{
+		"timestamp": 19070312,
+		"rpm": 12400,
+		"curr_gear": 200,
+		"tps": 230,
+		"oil_pres": 215,
+		"coolant_temp": 50,
+		"fuel_pres": 20.250000,
+		"lambda": 1.195312,
+		"iat": 9.000000
+	},
+	{
+		"timestamp": 19171875
+	},
+	{
+		"timestamp": 19273437,
+		"tyre_presLF": 16.500000,
+		"tyre_presRF": 22.250000,
+		"tyre_presLR": 16.500000,
+		"tyre_presRR": 5.250000
+	},
+	{
+		"timestamp": 19375000,
+		"lv_bat_volts": 22.500000,
+		"in_voltage": 6.750000,
+		"in_cur_bat": 10.625000,
+		"in_cur_alt": 17.250000
+	},
+	{
+		"timestamp": 19476562,
+		"tyre_presLF": 27.000000,
+		"tyre_presRF": 7.875000,
+		"tyre_presLR": 13.750000,
+		"tyre_presRR": 2.625000
+	},
+	{
+		"timestamp": 19578125,
+		"lv_bat_volts": 29.625000,
+		"in_voltage": 25.750000,
+		"in_cur_bat": 12.125000,
+		"in_cur_alt": 25.375000
+	},
+	{
+		"timestamp": 19679687,
+		"rpm": 14100,
+		"curr_gear": 25,
+		"tps": 87,
+		"oil_pres": 28,
+		"coolant_temp": 2,
+		"fuel_pres": 5.625000,
+		"lambda": 0.859375,
+		"iat": 8.875000
+	},
+	{
+		"timestamp": 19773437,
+		"output_voltage_0": 30,
+		"output_voltage_1": 83,
+		"output_voltage_2": 185,
+		"output_voltage_3": 32,
+		"output_voltage_4": 226,
+		"output_voltage_5": 14,
+		"output_voltage_6": 189,
+		"output_voltage_7": 22
+	},
+	{
+		"timestamp": 19875000,
+		"egt1": 1175.000000,
+		"egt2": 500.000000,
+		"egt3": 487.500000,
+		"egt4": 1400.000000,
+		"vehicle_speed": 115,
+		"map": 92,
+		"bps": 189,
+		"oil_temp": 67
+	},
+	{
+		"timestamp": 19976562,
+		"output_current_0": 77,
+		"output_current_1": 181,
+		"output_current_2": 248,
+		"output_current_3": 190,
+		"output_current_4": 129,
+		"output_current_5": 134,
+		"output_current_6": 145,
+		"output_current_7": 166
+	},
+	{
+		"timestamp": 20078125,
+		"dash_selector": 242
+	},
+	{
+		"timestamp": 20179687
+	},
+	{
+		"timestamp": 20281250
+	},
+	{
+		"timestamp": 20382812
+	},
+	{
+		"timestamp": 20484375,
+		"susLF": 107,
+		"susRF": 47,
+		"susLR": 26,
+		"susRR": 150,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 20585937,
+		"output_current_0": 99,
+		"output_current_1": 225,
+		"output_current_2": 98,
+		"output_current_3": 217,
+		"output_current_4": 17,
+		"output_current_5": 108,
+		"output_current_6": 98,
+		"output_current_7": 248
+	},
+	{
+		"timestamp": 20687500,
+		"output_current_0": 245,
+		"output_current_1": 213,
+		"output_current_2": 17,
+		"output_current_3": 139,
+		"output_current_4": 204,
+		"output_current_5": 96,
+		"output_current_6": 95,
+		"output_current_7": 240
+	},
+	{
+		"timestamp": 20781250,
+		"susLF": 248,
+		"susRF": 46,
+		"susLR": 212,
+		"susRR": 45,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 20882812,
+		"susLF": 206,
+		"susRF": 44,
+		"susLR": 252,
+		"susRR": 111,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 20984375
+	},
+	{
+		"timestamp": 21085937
+	},
+	{
+		"timestamp": 21187500
+	},
+	{
+		"timestamp": 21289062,
+		"output_current_0": 90,
+		"output_current_1": 220,
+		"output_current_2": 37,
+		"output_current_3": 157,
+		"output_current_4": 36,
+		"output_current_5": 190,
+		"output_current_6": 130,
+		"output_current_7": 129
+	},
+	{
+		"timestamp": 21390625,
+		"susLF": 90,
+		"susRF": 8,
+		"susLR": 118,
+		"susRR": 235,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 21484375,
+		"susLF": 202,
+		"susRF": 16,
+		"susLR": 107,
+		"susRR": 70,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 21585937,
+		"output_current_0": 207,
+		"output_current_1": 61,
+		"output_current_2": 166,
+		"output_current_3": 147,
+		"output_current_4": 123,
+		"output_current_5": 108,
+		"output_current_6": 5,
+		"output_current_7": 168
+	},
+	{
+		"timestamp": 21687500,
+		"egt1": 506.250000,
+		"egt2": 868.750000,
+		"egt3": 712.500000,
+		"egt4": 375.000000,
+		"vehicle_speed": 148,
+		"map": 65,
+		"bps": 132,
+		"oil_temp": 224
+	},
+	{
+		"timestamp": 21789062,
+		"output_current_0": 12,
+		"output_current_1": 70,
+		"output_current_2": 119,
+		"output_current_3": 154,
+		"output_current_4": 237,
+		"output_current_5": 238,
+		"output_current_6": 139,
+		"output_current_7": 172
+	},
+	{
+		"timestamp": 21890625,
+		"egt1": 681.250000,
+		"egt2": 1056.250000,
+		"egt3": 931.250000,
+		"egt4": 893.750000,
+		"vehicle_speed": 62,
+		"map": 91,
+		"bps": 50,
+		"oil_temp": 251
+	},
+	{
+		"timestamp": 21992187
+	},
+	{
+		"timestamp": 22093750,
+		"rpm": 21300,
+		"curr_gear": 2,
+		"tps": 245,
+		"oil_pres": 148,
+		"coolant_temp": 221,
+		"fuel_pres": 30.500000,
+		"lambda": 0.250000,
+		"iat": 12.250000
+	},
+	{
+		"timestamp": 22195312,
+		"dash_selector": 231
+	},
+	{
+		"timestamp": 22296875,
+		"egt1": 25.000000,
+		"egt2": 312.500000,
+		"egt3": 1212.500000,
+		"egt4": 1362.500000,
+		"vehicle_speed": 78,
+		"map": 102,
+		"bps": 144,
+		"oil_temp": 226
+	},
+	{
+		"timestamp": 22398437,
+		"egt1": 1262.500000,
+		"egt2": 1493.750000,
+		"egt3": 1243.750000,
+		"egt4": 1306.250000,
+		"vehicle_speed": 102,
+		"map": 191,
+		"bps": 181,
+		"oil_temp": 238
+	},
+	{
+		"timestamp": 22500000,
+		"output_current_0": 199,
+		"output_current_1": 253,
+		"output_current_2": 238,
+		"output_current_3": 18,
+		"output_current_4": 104,
+		"output_current_5": 253,
+		"output_current_6": 41,
+		"output_current_7": 186
+	},
+	{
+		"timestamp": 22601562,
+		"egt1": 168.750000,
+		"egt2": 400.000000,
+		"egt3": 256.250000,
+		"egt4": 987.500000,
+		"vehicle_speed": 3,
+		"map": 124,
+		"bps": 129,
+		"oil_temp": 103
+	},
+	{
+		"timestamp": 22695312,
+		"egt1": 562.500000,
+		"egt2": 31.250000,
+		"egt3": 450.000000,
+		"egt4": 262.500000,
+		"vehicle_speed": 69,
+		"map": 163,
+		"bps": 253,
+		"oil_temp": 25
+	},
+	{
+		"timestamp": 22796875,
+		"output_voltage_0": 101,
+		"output_voltage_1": 164,
+		"output_voltage_2": 41,
+		"output_voltage_3": 230,
+		"output_voltage_4": 182,
+		"output_voltage_5": 172,
+		"output_voltage_6": 218,
+		"output_voltage_7": 156
+	},
+	{
+		"timestamp": 22898437,
+		"egt1": 731.250000,
+		"egt2": 737.500000,
+		"egt3": 1481.250000,
+		"egt4": 1331.250000,
+		"vehicle_speed": 245,
+		"map": 56,
+		"bps": 177,
+		"oil_temp": 81
+	},
+	{
+		"timestamp": 23000000,
+		"lv_bat_volts": 28.875000,
+		"in_voltage": 21.375000,
+		"in_cur_bat": 31.000000,
+		"in_cur_alt": 12.250000
+	},
+	{
+		"timestamp": 23101562,
+		"lv_bat_volts": 23.750000,
+		"in_voltage": 21.750000,
+		"in_cur_bat": 7.500000,
+		"in_cur_alt": 22.500000
+	},
+	{
+		"timestamp": 23203125,
+		"output_voltage_0": 170,
+		"output_voltage_1": 217,
+		"output_voltage_2": 121,
+		"output_voltage_3": 130,
+		"output_voltage_4": 254,
+		"output_voltage_5": 217,
+		"output_voltage_6": 201,
+		"output_voltage_7": 184
+	},
+	{
+		"timestamp": 23304687
+	},
+	{
+		"timestamp": 23406250,
+		"output_current_0": 4,
+		"output_current_1": 211,
+		"output_current_2": 57,
+		"output_current_3": 217,
+		"output_current_4": 28,
+		"output_current_5": 215,
+		"output_current_6": 229,
+		"output_current_7": 219
+	},
+	{
+		"timestamp": 23507812
+	},
+	{
+		"timestamp": 23609375,
+		"output_current_0": 149,
+		"output_current_1": 99,
+		"output_current_2": 24,
+		"output_current_3": 142,
+		"output_current_4": 128,
+		"output_current_5": 27,
+		"output_current_6": 131,
+		"output_current_7": 229
+	},
+	{
+		"timestamp": 23703125,
+		"lv_bat_volts": 12.000000,
+		"in_voltage": 15.750000,
+		"in_cur_bat": 30.750000,
+		"in_cur_alt": 19.000000
+	},
+	{
+		"timestamp": 23804687,
+		"susLF": 134,
+		"susRF": 181,
+		"susLR": 50,
+		"susRR": 145,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 23906250,
+		"dash_selector": 124
+	},
+	{
+		"timestamp": 24007812,
+		"output_current_0": 203,
+		"output_current_1": 164,
+		"output_current_2": 60,
+		"output_current_3": 194,
+		"output_current_4": 1,
+		"output_current_5": 166,
+		"output_current_6": 239,
+		"output_current_7": 17
+	},
+	{
+		"timestamp": 24109375,
+		"susLF": 170,
+		"susRF": 182,
+		"susLR": 151,
+		"susRR": 38,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 24210937
+	},
+	{
+		"timestamp": 24312500,
+		"output_current_0": 65,
+		"output_current_1": 196,
+		"output_current_2": 96,
+		"output_current_3": 107,
+		"output_current_4": 188,
+		"output_current_5": 113,
+		"output_current_6": 24,
+		"output_current_7": 247
+	},
+	{
+		"timestamp": 24414062,
+		"dash_selector": 94
+	},
+	{
+		"timestamp": 24515625
+	},
+	{
+		"timestamp": 24609375,
+		"output_current_0": 106,
+		"output_current_1": 173,
+		"output_current_2": 242,
+		"output_current_3": 229,
+		"output_current_4": 215,
+		"output_current_5": 169,
+		"output_current_6": 254,
+		"output_current_7": 41
+	},
+	{
+		"timestamp": 24710937,
+		"tyre_presLF": 11.125000,
+		"tyre_presRF": 31.125000,
+		"tyre_presLR": 25.375000,
+		"tyre_presRR": 4.750000
+	},
+	{
+		"timestamp": 24812500,
+		"rpm": 7300,
+		"curr_gear": 253,
+		"tps": 130,
+		"oil_pres": 186,
+		"coolant_temp": 83,
+		"fuel_pres": 28.875000,
+		"lambda": 0.070312,
+		"iat": 9.875000
+	},
+	{
+		"timestamp": 24914062,
+		"output_current_0": 96,
+		"output_current_1": 211,
+		"output_current_2": 162,
+		"output_current_3": 66,
+		"output_current_4": 206,
+		"output_current_5": 70,
+		"output_current_6": 0,
+		"output_current_7": 101
+	},
+	{
+		"timestamp": 25015625,
+		"lv_bat_volts": 27.375000,
+		"in_voltage": 17.500000,
+		"in_cur_bat": 16.625000,
+		"in_cur_alt": 0.625000
+	},
+	{
+		"timestamp": 25117187,
+		"output_current_0": 231,
+		"output_current_1": 0,
+		"output_current_2": 53,
+		"output_current_3": 32,
+		"output_current_4": 82,
+		"output_current_5": 52,
+		"output_current_6": 31,
+		"output_current_7": 204
+	},
+	{
+		"timestamp": 25218750,
+		"tyre_presLF": 6.875000,
+		"tyre_presRF": 26.375000,
+		"tyre_presLR": 28.875000,
+		"tyre_presRR": 15.000000
+	},
+	{
+		"timestamp": 25320312,
+		"egt1": 881.250000,
+		"egt2": 556.250000,
+		"egt3": 1056.250000,
+		"egt4": 881.250000,
+		"vehicle_speed": 210,
+		"map": 72,
+		"bps": 76,
+		"oil_temp": 203
+	},
+	{
+		"timestamp": 25421875,
+		"lv_bat_volts": 2.625000,
+		"in_voltage": 24.000000,
+		"in_cur_bat": 29.750000,
+		"in_cur_alt": 31.125000
+	},
+	{
+		"timestamp": 25523437,
+		"output_current_0": 40,
+		"output_current_1": 55,
+		"output_current_2": 226,
+		"output_current_3": 251,
+		"output_current_4": 225,
+		"output_current_5": 25,
+		"output_current_6": 53,
+		"output_current_7": 84
+	},
+	{
+		"timestamp": 25617187
+	},
+	{
+		"timestamp": 25718750,
+		"output_current_0": 16,
+		"output_current_1": 231,
+		"output_current_2": 121,
+		"output_current_3": 125,
+		"output_current_4": 241,
+		"output_current_5": 151,
+		"output_current_6": 101,
+		"output_current_7": 90
+	},
+	{
+		"timestamp": 25820312,
+		"output_voltage_0": 117,
+		"output_voltage_1": 232,
+		"output_voltage_2": 203,
+		"output_voltage_3": 226,
+		"output_voltage_4": 124,
+		"output_voltage_5": 104,
+		"output_voltage_6": 16,
+		"output_voltage_7": 61
+	},
+	{
+		"timestamp": 25921875,
+		"output_voltage_0": 55,
+		"output_voltage_1": 140,
+		"output_voltage_2": 202,
+		"output_voltage_3": 95,
+		"output_voltage_4": 116,
+		"output_voltage_5": 217,
+		"output_voltage_6": 98,
+		"output_voltage_7": 138
+	},
+	{
+		"timestamp": 26023437,
+		"susLF": 112,
+		"susRF": 78,
+		"susLR": 61,
+		"susRR": 248,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 26125000
+	},
+	{
+		"timestamp": 26226562,
+		"dash_selector": 193
+	},
+	{
+		"timestamp": 26328125,
+		"tyre_presLF": 27.125000,
+		"tyre_presRF": 27.000000,
+		"tyre_presLR": 7.375000,
+		"tyre_presRR": 15.750000
+	},
+	{
+		"timestamp": 26429687,
+		"tyre_presLF": 17.750000,
+		"tyre_presRF": 4.000000,
+		"tyre_presLR": 0.875000,
+		"tyre_presRR": 5.875000
+	},
+	{
+		"timestamp": 26531250,
+		"egt1": 1125.000000,
+		"egt2": 1031.250000,
+		"egt3": 287.500000,
+		"egt4": 68.750000,
+		"vehicle_speed": 162,
+		"map": 77,
+		"bps": 100,
+		"oil_temp": 140
+	},
+	{
+		"timestamp": 26632812,
+		"output_voltage_0": 225,
+		"output_voltage_1": 254,
+		"output_voltage_2": 175,
+		"output_voltage_3": 162,
+		"output_voltage_4": 170,
+		"output_voltage_5": 212,
+		"output_voltage_6": 40,
+		"output_voltage_7": 128
+	},
+	{
+		"timestamp": 26726562,
+		"lv_bat_volts": 24.875000,
+		"in_voltage": 30.750000,
+		"in_cur_bat": 26.250000,
+		"in_cur_alt": 20.625000
+	},
+	{
+		"timestamp": 26828125,
+		"tyre_presLF": 28.750000,
+		"tyre_presRF": 3.875000,
+		"tyre_presLR": 1.750000,
+		"tyre_presRR": 3.875000
+	},
+	{
+		"timestamp": 26929687,
+		"lv_bat_volts": 5.750000,
+		"in_voltage": 19.125000,
+		"in_cur_bat": 16.000000,
+		"in_cur_alt": 29.000000
+	},
+	{
+		"timestamp": 27031250,
+		"output_voltage_0": 234,
+		"output_voltage_1": 114,
+		"output_voltage_2": 252,
+		"output_voltage_3": 209,
+		"output_voltage_4": 197,
+		"output_voltage_5": 230,
+		"output_voltage_6": 177,
+		"output_voltage_7": 80
+	},
+	{
+		"timestamp": 27132812,
+		"output_voltage_0": 122,
+		"output_voltage_1": 211,
+		"output_voltage_2": 173,
+		"output_voltage_3": 239,
+		"output_voltage_4": 216,
+		"output_voltage_5": 163,
+		"output_voltage_6": 30,
+		"output_voltage_7": 78
+	},
+	{
+		"timestamp": 27234375,
+		"tyre_presLF": 21.375000,
+		"tyre_presRF": 26.500000,
+		"tyre_presLR": 14.250000,
+		"tyre_presRR": 1.750000
+	},
+	{
+		"timestamp": 27335937,
+		"output_voltage_0": 83,
+		"output_voltage_1": 164,
+		"output_voltage_2": 235,
+		"output_voltage_3": 208,
+		"output_voltage_4": 85,
+		"output_voltage_5": 133,
+		"output_voltage_6": 179,
+		"output_voltage_7": 79
+	},
+	{
+		"timestamp": 27437500
+	},
+	{
+		"timestamp": 27539062,
+		"lv_bat_volts": 29.500000,
+		"in_voltage": 13.750000,
+		"in_cur_bat": 28.625000,
+		"in_cur_alt": 9.000000
+	},
+	{
+		"timestamp": 27632812,
+		"egt1": 1518.750000,
+		"egt2": 731.250000,
+		"egt3": 1418.750000,
+		"egt4": 825.000000,
+		"vehicle_speed": 12,
+		"map": 88,
+		"bps": 103,
+		"oil_temp": 32
+	},
+	{
+		"timestamp": 27734375
+	},
+	{
+		"timestamp": 27835937,
+		"tyre_presLF": 7.375000,
+		"tyre_presRF": 29.875000,
+		"tyre_presLR": 11.875000,
+		"tyre_presRR": 28.125000
+	},
+	{
+		"timestamp": 27937500,
+		"rpm": 9400,
+		"curr_gear": 12,
+		"tps": 90,
+		"oil_pres": 46,
+		"coolant_temp": 230,
+		"fuel_pres": 3.250000,
+		"lambda": 1.710938,
+		"iat": 26.875000
+	},
+	{
+		"timestamp": 28039062,
+		"susLF": 224,
+		"susRF": 216,
+		"susLR": 91,
+		"susRR": 230,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 28140625
+	},
+	{
+		"timestamp": 28242187,
+		"tyre_presLF": 11.250000,
+		"tyre_presRF": 1.625000,
+		"tyre_presLR": 10.625000,
+		"tyre_presRR": 3.875000
+	},
+	{
+		"timestamp": 28343750,
+		"output_current_0": 24,
+		"output_current_1": 155,
+		"output_current_2": 117,
+		"output_current_3": 103,
+		"output_current_4": 225,
+		"output_current_5": 86,
+		"output_current_6": 104,
+		"output_current_7": 135
+	},
+	{
+		"timestamp": 28445312,
+		"susLF": 235,
+		"susRF": 144,
+		"susLR": 17,
+		"susRR": 170,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 28546875
+	},
+	{
+		"timestamp": 28640625,
+		"dash_selector": 252
+	},
+	{
+		"timestamp": 28742187,
+		"lv_bat_volts": 17.500000,
+		"in_voltage": 15.125000,
+		"in_cur_bat": 1.875000,
+		"in_cur_alt": 17.125000
+	},
+	{
+		"timestamp": 28843750,
+		"output_current_0": 89,
+		"output_current_1": 174,
+		"output_current_2": 130,
+		"output_current_3": 12,
+		"output_current_4": 248,
+		"output_current_5": 157,
+		"output_current_6": 146,
+		"output_current_7": 210
+	},
+	{
+		"timestamp": 28945312,
+		"rpm": 13000,
+		"curr_gear": 180,
+		"tps": 10,
+		"oil_pres": 219,
+		"coolant_temp": 43,
+		"fuel_pres": 11.875000,
+		"lambda": 0.828125,
+		"iat": 31.750000
+	},
+	{
+		"timestamp": 29046875,
+		"output_voltage_0": 180,
+		"output_voltage_1": 173,
+		"output_voltage_2": 61,
+		"output_voltage_3": 111,
+		"output_voltage_4": 250,
+		"output_voltage_5": 229,
+		"output_voltage_6": 233,
+		"output_voltage_7": 93
+	},
+	{
+		"timestamp": 29148437,
+		"output_current_0": 174,
+		"output_current_1": 182,
+		"output_current_2": 39,
+		"output_current_3": 229,
+		"output_current_4": 209,
+		"output_current_5": 219,
+		"output_current_6": 36,
+		"output_current_7": 159
+	},
+	{
+		"timestamp": 29250000,
+		"egt1": 781.250000,
+		"egt2": 93.750000,
+		"egt3": 81.250000,
+		"egt4": 1212.500000,
+		"vehicle_speed": 70,
+		"map": 179,
+		"bps": 71,
+		"oil_temp": 157
+	},
+	{
+		"timestamp": 29351562,
+		"dash_selector": 16
+	},
+	{
+		"timestamp": 28453125,
+		"dash_selector": 154
+	},
+	{
+		"timestamp": 29546875,
+		"susLF": 181,
+		"susRF": 219,
+		"susLR": 208,
+		"susRR": 141,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 29648437,
+		"susLF": 62,
+		"susRF": 201,
+		"susLR": 194,
+		"susRR": 239,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 29750000,
+		"rpm": 5900,
+		"curr_gear": 91,
+		"tps": 29,
+		"oil_pres": 199,
+		"coolant_temp": 34,
+		"fuel_pres": 14.375000,
+		"lambda": 1.273438,
+		"iat": 21.375000
+	},
+	{
+		"timestamp": 29851562,
+		"tyre_presLF": 4.250000,
+		"tyre_presRF": 9.125000,
+		"tyre_presLR": 3.000000,
+		"tyre_presRR": 21.375000
+	},
+	{
+		"timestamp": 29953125
+	},
+	{
+		"timestamp": 30054687,
+		"tyre_presLF": 21.000000,
+		"tyre_presRF": 13.625000,
+		"tyre_presLR": 25.625000,
+		"tyre_presRR": 17.125000
+	},
+	{
+		"timestamp": 30156250,
+		"susLF": 172,
+		"susRF": 83,
+		"susLR": 17,
+		"susRR": 244,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 30257812
+	},
+	{
+		"timestamp": 30359375,
+		"susLF": 158,
+		"susRF": 59,
+		"susLR": 196,
+		"susRR": 4,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 29453125,
+		"susLF": 143,
+		"susRF": 41,
+		"susLR": 190,
+		"susRR": 39,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 30554687
+	},
+	{
+		"timestamp": 30656250,
+		"egt1": 1012.500000,
+		"egt2": 93.750000,
+		"egt3": 687.500000,
+		"egt4": 1593.750000,
+		"vehicle_speed": 71,
+		"map": 88,
+		"bps": 152,
+		"oil_temp": 224
+	},
+	{
+		"timestamp": 30757812,
+		"susLF": 213,
+		"susRF": 104,
+		"susLR": 184,
+		"susRR": 90,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 30859375,
+		"output_current_0": 46,
+		"output_current_1": 36,
+		"output_current_2": 201,
+		"output_current_3": 6,
+		"output_current_4": 127,
+		"output_current_5": 61,
+		"output_current_6": 248,
+		"output_current_7": 50
+	},
+	{
+		"timestamp": 30960937,
+		"lv_bat_volts": 10.625000,
+		"in_voltage": 30.250000,
+		"in_cur_bat": 17.500000,
+		"in_cur_alt": 6.500000
+	},
+	{
+		"timestamp": 31062500,
+		"egt1": 412.500000,
+		"egt2": 1556.250000,
+		"egt3": 1043.750000,
+		"egt4": 700.000000,
+		"vehicle_speed": 192,
+		"map": 192,
+		"bps": 92,
+		"oil_temp": 90
+	},
+	{
+		"timestamp": 31164062
+	},
+	{
+		"timestamp": 31265625,
+		"output_voltage_0": 252,
+		"output_voltage_1": 40,
+		"output_voltage_2": 246,
+		"output_voltage_3": 127,
+		"output_voltage_4": 84,
+		"output_voltage_5": 61,
+		"output_voltage_6": 148,
+		"output_voltage_7": 104
+	},
+	{
+		"timestamp": 31359375,
+		"output_voltage_0": 19,
+		"output_voltage_1": 232,
+		"output_voltage_2": 189,
+		"output_voltage_3": 243,
+		"output_voltage_4": 56,
+		"output_voltage_5": 6,
+		"output_voltage_6": 203,
+		"output_voltage_7": 154
+	},
+	{
+		"timestamp": 31468750,
+		"egt1": 537.500000,
+		"egt2": 450.000000,
+		"egt3": 1543.750000,
+		"egt4": 1568.750000,
+		"vehicle_speed": 150,
+		"map": 218,
+		"bps": 77,
+		"oil_temp": 5
+	},
+	{
+		"timestamp": 31562500
+	},
+	{
+		"timestamp": 31664062,
+		"dash_selector": 251
+	},
+	{
+		"timestamp": 31765625,
+		"tyre_presLF": 25.250000,
+		"tyre_presRF": 1.625000,
+		"tyre_presLR": 1.875000,
+		"tyre_presRR": 16.625000
+	},
+	{
+		"timestamp": 31867187
+	},
+	{
+		"timestamp": 31968750,
+		"rpm": 16100,
+		"curr_gear": 11,
+		"tps": 76,
+		"oil_pres": 192,
+		"coolant_temp": 227,
+		"fuel_pres": 3.000000,
+		"lambda": 0.976562,
+		"iat": 15.500000
+	},
+	{
+		"timestamp": 32070312,
+		"susLF": 211,
+		"susRF": 251,
+		"susLR": 148,
+		"susRR": 226,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 32171875
+	},
+	{
+		"timestamp": 32273437,
+		"output_voltage_0": 33,
+		"output_voltage_1": 87,
+		"output_voltage_2": 9,
+		"output_voltage_3": 91,
+		"output_voltage_4": 131,
+		"output_voltage_5": 99,
+		"output_voltage_6": 189,
+		"output_voltage_7": 134
+	},
+	{
+		"timestamp": 32367187,
+		"tyre_presLF": 6.875000,
+		"tyre_presRF": 21.375000,
+		"tyre_presLR": 28.000000,
+		"tyre_presRR": 4.000000
+	},
+	{
+		"timestamp": 32468750,
+		"tyre_presLF": 20.250000,
+		"tyre_presRF": 31.875000,
+		"tyre_presLR": 26.250000,
+		"tyre_presRR": 21.875000
+	},
+	{
+		"timestamp": 32570312,
+		"dash_selector": 186
+	},
+	{
+		"timestamp": 32671875,
+		"lv_bat_volts": 1.250000,
+		"in_voltage": 16.625000,
+		"in_cur_bat": 13.375000,
+		"in_cur_alt": 17.500000
+	},
+	{
+		"timestamp": 32773437,
+		"susLF": 90,
+		"susRF": 164,
+		"susLR": 53,
+		"susRR": 247,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 32875000,
+		"output_voltage_0": 129,
+		"output_voltage_1": 33,
+		"output_voltage_2": 125,
+		"output_voltage_3": 40,
+		"output_voltage_4": 82,
+		"output_voltage_5": 179,
+		"output_voltage_6": 8,
+		"output_voltage_7": 4
+	},
+	{
+		"timestamp": 32976562,
+		"output_current_0": 115,
+		"output_current_1": 16,
+		"output_current_2": 122,
+		"output_current_3": 58,
+		"output_current_4": 31,
+		"output_current_5": 131,
+		"output_current_6": 14,
+		"output_current_7": 156
+	},
+	{
+		"timestamp": 33078125,
+		"susLF": 11,
+		"susRF": 166,
+		"susLR": 227,
+		"susRR": 239,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 33179687
+	},
+	{
+		"timestamp": 33273437,
+		"dash_selector": 23
+	},
+	{
+		"timestamp": 33375000
+	},
+	{
+		"timestamp": 33476562,
+		"lv_bat_volts": 9.375000,
+		"in_voltage": 23.000000,
+		"in_cur_bat": 25.750000,
+		"in_cur_alt": 25.375000
+	},
+	{
+		"timestamp": 33578125,
+		"rpm": 24600,
+		"curr_gear": 218,
+		"tps": 78,
+		"oil_pres": 89,
+		"coolant_temp": 2,
+		"fuel_pres": 9.000000,
+		"lambda": 0.851562,
+		"iat": 14.625000
+	},
+	{
+		"timestamp": 33679687,
+		"tyre_presLF": 6.250000,
+		"tyre_presRF": 9.750000,
+		"tyre_presLR": 29.125000,
+		"tyre_presRR": 24.875000
+	},
+	{
+		"timestamp": 33781250
+	},
+	{
+		"timestamp": 33882812,
+		"output_current_0": 73,
+		"output_current_1": 20,
+		"output_current_2": 251,
+		"output_current_3": 211,
+		"output_current_4": 190,
+		"output_current_5": 125,
+		"output_current_6": 49,
+		"output_current_7": 90
+	},
+	{
+		"timestamp": 33984375,
+		"dash_selector": 179
+	},
+	{
+		"timestamp": 34085937,
+		"output_voltage_0": 236,
+		"output_voltage_1": 104,
+		"output_voltage_2": 199,
+		"output_voltage_3": 16,
+		"output_voltage_4": 245,
+		"output_voltage_5": 10,
+		"output_voltage_6": 143,
+		"output_voltage_7": 208
+	},
+	{
+		"timestamp": 34187500,
+		"rpm": 22000,
+		"curr_gear": 165,
+		"tps": 28,
+		"oil_pres": 26,
+		"coolant_temp": 56,
+		"fuel_pres": 0.750000,
+		"lambda": 0.023438,
+		"iat": 19.625000
+	},
+	{
+		"timestamp": 34281250,
+		"rpm": 9300,
+		"curr_gear": 74,
+		"tps": 4,
+		"oil_pres": 207,
+		"coolant_temp": 51,
+		"fuel_pres": 24.500000,
+		"lambda": 0.726562,
+		"iat": 6.500000
+	},
+	{
+		"timestamp": 34382812,
+		"egt1": 268.750000,
+		"egt2": 875.000000,
+		"egt3": 1525.000000,
+		"egt4": 1256.250000,
+		"vehicle_speed": 223,
+		"map": 68,
+		"bps": 89,
+		"oil_temp": 244
+	},
+	{
+		"timestamp": 34484375,
+		"tyre_presLF": 6.000000,
+		"tyre_presRF": 10.750000,
+		"tyre_presLR": 11.875000,
+		"tyre_presRR": 13.375000
+	},
+	{
+		"timestamp": 34585937,
+		"lv_bat_volts": 28.750000,
+		"in_voltage": 3.625000,
+		"in_cur_bat": 7.000000,
+		"in_cur_alt": 31.000000
+	},
+	{
+		"timestamp": 34687500,
+		"egt1": 531.250000,
+		"egt2": 400.000000,
+		"egt3": 843.750000,
+		"egt4": 25.000000,
+		"vehicle_speed": 154,
+		"map": 226,
+		"bps": 151,
+		"oil_temp": 156
+	},
+	{
+		"timestamp": 34789062,
+		"output_voltage_0": 163,
+		"output_voltage_1": 73,
+		"output_voltage_2": 69,
+		"output_voltage_3": 142,
+		"output_voltage_4": 137,
+		"output_voltage_5": 73,
+		"output_voltage_6": 180,
+		"output_voltage_7": 189
+	},
+	{
+		"timestamp": 34890625
+	},
+	{
+		"timestamp": 34992187,
+		"output_voltage_0": 148,
+		"output_voltage_1": 24,
+		"output_voltage_2": 229,
+		"output_voltage_3": 5,
+		"output_voltage_4": 12,
+		"output_voltage_5": 46,
+		"output_voltage_6": 84,
+		"output_voltage_7": 137
+	},
+	{
+		"timestamp": 35093750
+	},
+	{
+		"timestamp": 35195312,
+		"egt1": 712.500000,
+		"egt2": 387.500000,
+		"egt3": 237.500000,
+		"egt4": 75.000000,
+		"vehicle_speed": 83,
+		"map": 91,
+		"bps": 228,
+		"oil_temp": 247
+	},
+	{
+		"timestamp": 35289062,
+		"lv_bat_volts": 25.000000,
+		"in_voltage": 11.000000,
+		"in_cur_bat": 13.375000,
+		"in_cur_alt": 13.000000
+	},
+	{
+		"timestamp": 35390625,
+		"tyre_presLF": 9.250000,
+		"tyre_presRF": 18.375000,
+		"tyre_presLR": 14.750000,
+		"tyre_presRR": 23.125000
+	},
+	{
+		"timestamp": 35492187,
+		"susLF": 42,
+		"susRF": 19,
+		"susLR": 93,
+		"susRR": 165,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 35593750,
+		"output_voltage_0": 103,
+		"output_voltage_1": 22,
+		"output_voltage_2": 204,
+		"output_voltage_3": 40,
+		"output_voltage_4": 171,
+		"output_voltage_5": 105,
+		"output_voltage_6": 45,
+		"output_voltage_7": 53
+	},
+	{
+		"timestamp": 35695312
+	},
+	{
+		"timestamp": 35796875
+	},
+	{
+		"timestamp": 35898437,
+		"output_current_0": 165,
+		"output_current_1": 233,
+		"output_current_2": 25,
+		"output_current_3": 226,
+		"output_current_4": 6,
+		"output_current_5": 180,
+		"output_current_6": 60,
+		"output_current_7": 179
+	},
+	{
+		"timestamp": 36000000
+	},
+	{
+		"timestamp": 36101562,
+		"lv_bat_volts": 22.875000,
+		"in_voltage": 25.000000,
+		"in_cur_bat": 30.000000,
+		"in_cur_alt": 13.500000
+	},
+	{
+		"timestamp": 36195312
+	},
+	{
+		"timestamp": 36304687,
+		"egt1": 1018.750000,
+		"egt2": 1293.750000,
+		"egt3": 1000.000000,
+		"egt4": 1437.500000,
+		"vehicle_speed": 48,
+		"map": 176,
+		"bps": 227,
+		"oil_temp": 181
+	},
+	{
+		"timestamp": 36398437,
+		"output_current_0": 62,
+		"output_current_1": 80,
+		"output_current_2": 18,
+		"output_current_3": 61,
+		"output_current_4": 140,
+		"output_current_5": 55,
+		"output_current_6": 242,
+		"output_current_7": 73
+	},
+	{
+		"timestamp": 36500000,
+		"lv_bat_volts": 0.375000,
+		"in_voltage": 31.500000,
+		"in_cur_bat": 8.375000,
+		"in_cur_alt": 21.375000
+	},
+	{
+		"timestamp": 36601562,
+		"tyre_presLF": 22.875000,
+		"tyre_presRF": 30.250000,
+		"tyre_presLR": 20.750000,
+		"tyre_presRR": 9.250000
+	},
+	{
+		"timestamp": 36703125,
+		"tyre_presLF": 20.500000,
+		"tyre_presRF": 22.000000,
+		"tyre_presLR": 25.250000,
+		"tyre_presRR": 31.875000
+	},
+	{
+		"timestamp": 36804687,
+		"output_voltage_0": 238,
+		"output_voltage_1": 191,
+		"output_voltage_2": 3,
+		"output_voltage_3": 220,
+		"output_voltage_4": 214,
+		"output_voltage_5": 103,
+		"output_voltage_6": 93,
+		"output_voltage_7": 84
+	},
+	{
+		"timestamp": 36906250,
+		"rpm": 12900,
+		"curr_gear": 53,
+		"tps": 84,
+		"oil_pres": 101,
+		"coolant_temp": 137,
+		"fuel_pres": 2.000000,
+		"lambda": 0.789062,
+		"iat": 30.750000
+	},
+	{
+		"timestamp": 37007812,
+		"egt1": 856.250000,
+		"egt2": 1212.500000,
+		"egt3": 143.750000,
+		"egt4": 1431.250000,
+		"vehicle_speed": 84,
+		"map": 52,
+		"bps": 183,
+		"oil_temp": 192
+	},
+	{
+		"timestamp": 37109375,
+		"tyre_presLF": 0.625000,
+		"tyre_presRF": 26.000000,
+		"tyre_presLR": 11.250000,
+		"tyre_presRR": 26.750000
+	},
+	{
+		"timestamp": 37210937,
+		"susLF": 236,
+		"susRF": 219,
+		"susLR": 154,
+		"susRR": 118,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 37304687
+	},
+	{
+		"timestamp": 37406250,
+		"egt1": 1443.750000,
+		"egt2": 968.750000,
+		"egt3": 1450.000000,
+		"egt4": 668.750000,
+		"vehicle_speed": 165,
+		"map": 37,
+		"bps": 219,
+		"oil_temp": 27
+	},
+	{
+		"timestamp": 37507812,
+		"egt1": 1056.250000,
+		"egt2": 781.250000,
+		"egt3": 1050.000000,
+		"egt4": 556.250000,
+		"vehicle_speed": 167,
+		"map": 215,
+		"bps": 187,
+		"oil_temp": 59
+	},
+	{
+		"timestamp": 37609375,
+		"egt1": 962.500000,
+		"egt2": 1075.000000,
+		"egt3": 112.500000,
+		"egt4": 106.250000,
+		"vehicle_speed": 187,
+		"map": 187,
+		"bps": 200,
+		"oil_temp": 251
+	},
+	{
+		"timestamp": 37710937,
+		"output_current_0": 61,
+		"output_current_1": 35,
+		"output_current_2": 62,
+		"output_current_3": 115,
+		"output_current_4": 144,
+		"output_current_5": 75,
+		"output_current_6": 62,
+		"output_current_7": 120
+	},
+	{
+		"timestamp": 37812500,
+		"rpm": 9800,
+		"curr_gear": 172,
+		"tps": 130,
+		"oil_pres": 230,
+		"coolant_temp": 111,
+		"fuel_pres": 30.250000,
+		"lambda": 0.781250,
+		"iat": 7.625000
+	},
+	{
+		"timestamp": 37914062
+	},
+	{
+		"timestamp": 38015625,
+		"egt1": 1500.000000,
+		"egt2": 437.500000,
+		"egt3": 112.500000,
+		"egt4": 743.750000,
+		"vehicle_speed": 253,
+		"map": 227,
+		"bps": 105,
+		"oil_temp": 252
+	},
+	{
+		"timestamp": 38117187,
+		"egt1": 25.000000,
+		"egt2": 1043.750000,
+		"egt3": 1293.750000,
+		"egt4": 1550.000000,
+		"vehicle_speed": 98,
+		"map": 182,
+		"bps": 210,
+		"oil_temp": 140
+	},
+	{
+		"timestamp": 38218750,
+		"egt1": 981.250000,
+		"egt2": 275.000000,
+		"egt3": 937.500000,
+		"egt4": 1350.000000,
+		"vehicle_speed": 83,
+		"map": 226,
+		"bps": 122,
+		"oil_temp": 44
+	},
+	{
+		"timestamp": 38320312
+	},
+	{
+		"timestamp": 38421875,
+		"output_voltage_0": 119,
+		"output_voltage_1": 129,
+		"output_voltage_2": 59,
+		"output_voltage_3": 60,
+		"output_voltage_4": 26,
+		"output_voltage_5": 189,
+		"output_voltage_6": 72,
+		"output_voltage_7": 74
+	},
+	{
+		"timestamp": 38515625
+	},
+	{
+		"timestamp": 38617187,
+		"susLF": 52,
+		"susRF": 18,
+		"susLR": 104,
+		"susRR": 155,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 38718750,
+		"egt1": 187.500000,
+		"egt2": 781.250000,
+		"egt3": 293.750000,
+		"egt4": 62.500000,
+		"vehicle_speed": 62,
+		"map": 69,
+		"bps": 81,
+		"oil_temp": 194
+	},
+	{
+		"timestamp": 38820312,
+		"egt1": 1568.750000,
+		"egt2": 1550.000000,
+		"egt3": 756.250000,
+		"egt4": 556.250000,
+		"vehicle_speed": 174,
+		"map": 202,
+		"bps": 217,
+		"oil_temp": 218
+	},
+	{
+		"timestamp": 38921875,
+		"susLF": 192,
+		"susRF": 69,
+		"susLR": 169,
+		"susRR": 40,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 39023437,
+		"egt1": 556.250000,
+		"egt2": 350.000000,
+		"egt3": 481.250000,
+		"egt4": 437.500000,
+		"vehicle_speed": 58,
+		"map": 211,
+		"bps": 216,
+		"oil_temp": 183
+	},
+	{
+		"timestamp": 39125000,
+		"tyre_presLF": 8.000000,
+		"tyre_presRF": 1.750000,
+		"tyre_presLR": 21.750000,
+		"tyre_presRR": 7.375000
+	},
+	{
+		"timestamp": 39226562,
+		"rpm": 10200,
+		"curr_gear": 111,
+		"tps": 7,
+		"oil_pres": 34,
+		"coolant_temp": 149,
+		"fuel_pres": 29.750000,
+		"lambda": 1.375000,
+		"iat": 21.375000
+	},
+	{
+		"timestamp": 39328125,
+		"tyre_presLF": 8.375000,
+		"tyre_presRF": 13.000000,
+		"tyre_presLR": 22.750000,
+		"tyre_presRR": 27.625000
+	},
+	{
+		"timestamp": 39421875,
+		"output_current_0": 197,
+		"output_current_1": 152,
+		"output_current_2": 145,
+		"output_current_3": 237,
+		"output_current_4": 165,
+		"output_current_5": 134,
+		"output_current_6": 12,
+		"output_current_7": 209
+	},
+	{
+		"timestamp": 39523437,
+		"dash_selector": 10
+	},
+	{
+		"timestamp": 39625000,
+		"rpm": 22500,
+		"curr_gear": 55,
+		"tps": 138,
+		"oil_pres": 126,
+		"coolant_temp": 39,
+		"fuel_pres": 25.375000,
+		"lambda": 0.257812,
+		"iat": 13.625000
+	},
+	{
+		"timestamp": 39726562,
+		"output_current_0": 61,
+		"output_current_1": 33,
+		"output_current_2": 160,
+		"output_current_3": 76,
+		"output_current_4": 238,
+		"output_current_5": 156,
+		"output_current_6": 93,
+		"output_current_7": 168
+	},
+	{
+		"timestamp": 39828125,
+		"output_current_0": 92,
+		"output_current_1": 197,
+		"output_current_2": 123,
+		"output_current_3": 71,
+		"output_current_4": 65,
+		"output_current_5": 121,
+		"output_current_6": 194,
+		"output_current_7": 32
+	},
+	{
+		"timestamp": 39929687
+	},
+	{
+		"timestamp": 40031250,
+		"output_voltage_0": 231,
+		"output_voltage_1": 106,
+		"output_voltage_2": 194,
+		"output_voltage_3": 254,
+		"output_voltage_4": 60,
+		"output_voltage_5": 169,
+		"output_voltage_6": 18,
+		"output_voltage_7": 108
+	},
+	{
+		"timestamp": 40132812,
+		"tyre_presLF": 6.125000,
+		"tyre_presRF": 10.250000,
+		"tyre_presLR": 5.000000,
+		"tyre_presRR": 20.875000
+	},
+	{
+		"timestamp": 40234375,
+		"rpm": 9900,
+		"curr_gear": 161,
+		"tps": 140,
+		"oil_pres": 120,
+		"coolant_temp": 64,
+		"fuel_pres": 24.000000,
+		"lambda": 0.328125,
+		"iat": 12.875000
+	},
+	{
+		"timestamp": 40335937,
+		"rpm": 6200,
+		"curr_gear": 7,
+		"tps": 138,
+		"oil_pres": 250,
+		"coolant_temp": 137,
+		"fuel_pres": 11.375000,
+		"lambda": 1.921875,
+		"iat": 10.375000
+	},
+	{
+		"timestamp": 40437500,
+		"lv_bat_volts": 20.875000,
+		"in_voltage": 10.375000,
+		"in_cur_bat": 30.750000,
+		"in_cur_alt": 2.500000
+	},
+	{
+		"timestamp": 40531250,
+		"susLF": 65,
+		"susRF": 111,
+		"susLR": 132,
+		"susRR": 1,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 40632812
+	},
+	{
+		"timestamp": 40734375,
+		"output_current_0": 128,
+		"output_current_1": 64,
+		"output_current_2": 158,
+		"output_current_3": 216,
+		"output_current_4": 71,
+		"output_current_5": 53,
+		"output_current_6": 214,
+		"output_current_7": 37
+	},
+	{
+		"timestamp": 40835937,
+		"lv_bat_volts": 15.875000,
+		"in_voltage": 29.250000,
+		"in_cur_bat": 1.875000,
+		"in_cur_alt": 12.000000
+	},
+	{
+		"timestamp": 40937500,
+		"lv_bat_volts": 2.625000,
+		"in_voltage": 9.625000,
+		"in_cur_bat": 28.625000,
+		"in_cur_alt": 31.500000
+	},
+	{
+		"timestamp": 41039062,
+		"output_voltage_0": 22,
+		"output_voltage_1": 44,
+		"output_voltage_2": 13,
+		"output_voltage_3": 97,
+		"output_voltage_4": 180,
+		"output_voltage_5": 62,
+		"output_voltage_6": 74,
+		"output_voltage_7": 156
+	},
+	{
+		"timestamp": 41140625,
+		"rpm": 13100,
+		"curr_gear": 224,
+		"tps": 49,
+		"oil_pres": 216,
+		"coolant_temp": 101,
+		"fuel_pres": 2.500000,
+		"lambda": 0.687500,
+		"iat": 29.500000
+	},
+	{
+		"timestamp": 41242187,
+		"tyre_presLF": 26.750000,
+		"tyre_presRF": 23.000000,
+		"tyre_presLR": 13.125000,
+		"tyre_presRR": 31.500000
+	},
+	{
+		"timestamp": 41343750,
+		"dash_selector": 29
+	},
+	{
+		"timestamp": 41445312,
+		"output_current_0": 97,
+		"output_current_1": 60,
+		"output_current_2": 36,
+		"output_current_3": 113,
+		"output_current_4": 60,
+		"output_current_5": 75,
+		"output_current_6": 94,
+		"output_current_7": 127
+	},
+	{
+		"timestamp": 41539062
+	},
+	{
+		"timestamp": 41640625,
+		"susLF": 90,
+		"susRF": 120,
+		"susLR": 52,
+		"susRR": 24,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 41742187
+	},
+	{
+		"timestamp": 41843750
+	},
+	{
+		"timestamp": 41945312,
+		"egt1": 862.500000,
+		"egt2": 1118.750000,
+		"egt3": 750.000000,
+		"egt4": 1012.500000,
+		"vehicle_speed": 41,
+		"map": 125,
+		"bps": 98,
+		"oil_temp": 236
+	},
+	{
+		"timestamp": 42046875,
+		"egt1": 718.750000,
+		"egt2": 1343.750000,
+		"egt3": 137.500000,
+		"egt4": 656.250000,
+		"vehicle_speed": 119,
+		"map": 69,
+		"bps": 218,
+		"oil_temp": 138
+	},
+	{
+		"timestamp": 42148437,
+		"tyre_presLF": 21.250000,
+		"tyre_presRF": 29.625000,
+		"tyre_presLR": 31.375000,
+		"tyre_presRR": 31.875000
+	},
+	{
+		"timestamp": 42250000,
+		"output_voltage_0": 106,
+		"output_voltage_1": 86,
+		"output_voltage_2": 61,
+		"output_voltage_3": 247,
+		"output_voltage_4": 217,
+		"output_voltage_5": 157,
+		"output_voltage_6": 24,
+		"output_voltage_7": 242
+	},
+	{
+		"timestamp": 42351562,
+		"susLF": 181,
+		"susRF": 81,
+		"susLR": 160,
+		"susRR": 253,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 41453125,
+		"output_current_0": 97,
+		"output_current_1": 31,
+		"output_current_2": 89,
+		"output_current_3": 114,
+		"output_current_4": 170,
+		"output_current_5": 249,
+		"output_current_6": 229,
+		"output_current_7": 166
+	},
+	{
+		"timestamp": 42546875
+	},
+	{
+		"timestamp": 42648437
+	},
+	{
+		"timestamp": 42750000,
+		"output_voltage_0": 53,
+		"output_voltage_1": 100,
+		"output_voltage_2": 32,
+		"output_voltage_3": 199,
+		"output_voltage_4": 242,
+		"output_voltage_5": 42,
+		"output_voltage_6": 125,
+		"output_voltage_7": 70
+	},
+	{
+		"timestamp": 42851562,
+		"tyre_presLF": 0.625000,
+		"tyre_presRF": 27.875000,
+		"tyre_presLR": 18.375000,
+		"tyre_presRR": 4.000000
+	},
+	{
+		"timestamp": 42953125,
+		"egt1": 925.000000,
+		"egt2": 762.500000,
+		"egt3": 768.750000,
+		"egt4": 487.500000,
+		"vehicle_speed": 105,
+		"map": 217,
+		"bps": 137,
+		"oil_temp": 213
+	},
+	{
+		"timestamp": 43054687,
+		"egt1": 200.000000,
+		"egt2": 943.750000,
+		"egt3": 1437.500000,
+		"egt4": 431.250000,
+		"vehicle_speed": 200,
+		"map": 153,
+		"bps": 180,
+		"oil_temp": 62
+	},
+	{
+		"timestamp": 43156250,
+		"output_current_0": 26,
+		"output_current_1": 188,
+		"output_current_2": 16,
+		"output_current_3": 72,
+		"output_current_4": 182,
+		"output_current_5": 132,
+		"output_current_6": 134,
+		"output_current_7": 201
+	},
+	{
+		"timestamp": 43257812,
+		"output_voltage_0": 54,
+		"output_voltage_1": 138,
+		"output_voltage_2": 66,
+		"output_voltage_3": 25,
+		"output_voltage_4": 180,
+		"output_voltage_5": 46,
+		"output_voltage_6": 197,
+		"output_voltage_7": 5
+	},
+	{
+		"timestamp": 43359375,
+		"rpm": 3400,
+		"curr_gear": 92,
+		"tps": 180,
+		"oil_pres": 158,
+		"coolant_temp": 175,
+		"fuel_pres": 22.250000,
+		"lambda": 1.625000,
+		"iat": 6.875000
+	},
+	{
+		"timestamp": 42460937
+	},
+	{
+		"timestamp": 43554687,
+		"egt1": 1343.750000,
+		"egt2": 1137.500000,
+		"egt3": 375.000000,
+		"egt4": 262.500000,
+		"vehicle_speed": 189,
+		"map": 219,
+		"bps": 22,
+		"oil_temp": 106
+	},
+	{
+		"timestamp": 43656250,
+		"tyre_presLF": 12.500000,
+		"tyre_presRF": 25.375000,
+		"tyre_presLR": 13.250000,
+		"tyre_presRR": 22.375000
+	},
+	{
+		"timestamp": 43757812
+	},
+	{
+		"timestamp": 43859375,
+		"dash_selector": 80
+	},
+	{
+		"timestamp": 43960937,
+		"egt1": 650.000000,
+		"egt2": 1562.500000,
+		"egt3": 1293.750000,
+		"egt4": 562.500000,
+		"vehicle_speed": 30,
+		"map": 169,
+		"bps": 11,
+		"oil_temp": 177
+	},
+	{
+		"timestamp": 44062500,
+		"dash_selector": 248
+	},
+	{
+		"timestamp": 44164062,
+		"tyre_presLF": 16.250000,
+		"tyre_presRF": 20.250000,
+		"tyre_presLR": 24.250000,
+		"tyre_presRR": 30.125000
+	},
+	{
+		"timestamp": 44265625,
+		"dash_selector": 150
+	},
+	{
+		"timestamp": 44367187,
+		"tyre_presLF": 15.500000,
+		"tyre_presRF": 2.000000,
+		"tyre_presLR": 17.000000,
+		"tyre_presRR": 24.625000
+	},
+	{
+		"timestamp": 44460937,
+		"lv_bat_volts": 6.250000,
+		"in_voltage": 28.750000,
+		"in_cur_bat": 31.125000,
+		"in_cur_alt": 8.375000
+	},
+	{
+		"timestamp": 44562500,
+		"dash_selector": 71
+	},
+	{
+		"timestamp": 44664062,
+		"rpm": 13200,
+		"curr_gear": 26,
+		"tps": 69,
+		"oil_pres": 144,
+		"coolant_temp": 145,
+		"fuel_pres": 15.625000,
+		"lambda": 0.789062,
+		"iat": 9.000000
+	},
+	{
+		"timestamp": 44765625,
+		"output_current_0": 40,
+		"output_current_1": 254,
+		"output_current_2": 52,
+		"output_current_3": 224,
+		"output_current_4": 156,
+		"output_current_5": 216,
+		"output_current_6": 205,
+		"output_current_7": 28
+	},
+	{
+		"timestamp": 44867187,
+		"egt1": 537.500000,
+		"egt2": 487.500000,
+		"egt3": 1568.750000,
+		"egt4": 1043.750000,
+		"vehicle_speed": 10,
+		"map": 220,
+		"bps": 121,
+		"oil_temp": 1
+	},
+	{
+		"timestamp": 44968750,
+		"lv_bat_volts": 31.000000,
+		"in_voltage": 16.375000,
+		"in_cur_bat": 6.625000,
+		"in_cur_alt": 25.000000
+	},
+	{
+		"timestamp": 45070312
+	},
+	{
+		"timestamp": 45171875,
+		"output_current_0": 85,
+		"output_current_1": 246,
+		"output_current_2": 11,
+		"output_current_3": 97,
+		"output_current_4": 220,
+		"output_current_5": 235,
+		"output_current_6": 88,
+		"output_current_7": 140
+	},
+	{
+		"timestamp": 45273437,
+		"output_current_0": 32,
+		"output_current_1": 195,
+		"output_current_2": 147,
+		"output_current_3": 237,
+		"output_current_4": 4,
+		"output_current_5": 243,
+		"output_current_6": 159,
+		"output_current_7": 146
+	},
+	{
+		"timestamp": 45375000,
+		"dash_selector": 31
+	},
+	{
+		"timestamp": 45468750,
+		"output_current_0": 167,
+		"output_current_1": 134,
+		"output_current_2": 200,
+		"output_current_3": 100,
+		"output_current_4": 173,
+		"output_current_5": 110,
+		"output_current_6": 102,
+		"output_current_7": 15
+	},
+	{
+		"timestamp": 45570312,
+		"lv_bat_volts": 31.250000,
+		"in_voltage": 12.750000,
+		"in_cur_bat": 10.125000,
+		"in_cur_alt": 17.125000
+	},
+	{
+		"timestamp": 45671875,
+		"susLF": 151,
+		"susRF": 67,
+		"susLR": 97,
+		"susRR": 168,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 45773437
+	},
+	{
+		"timestamp": 45875000,
+		"dash_selector": 123
+	},
+	{
+		"timestamp": 45976562
+	},
+	{
+		"timestamp": 46078125,
+		"rpm": 9900,
+		"curr_gear": 214,
+		"tps": 69,
+		"oil_pres": 136,
+		"coolant_temp": 148,
+		"fuel_pres": 29.625000,
+		"lambda": 0.375000,
+		"iat": 26.000000
+	},
+	{
+		"timestamp": 46179687
+	},
+	{
+		"timestamp": 46273437,
+		"susLF": 121,
+		"susRF": 99,
+		"susLR": 154,
+		"susRR": 128,
+		"accel": 0,
+		"gyro": 0
+	},
+	{
+		"timestamp": 46375000,
+		"egt1": 118.750000,
+		"egt2": 1500.000000,
+		"egt3": 93.750000,
+		"egt4": 1150.000000,
+		"vehicle_speed": 83,
+		"map": 234,
+		"bps": 97,
+		"oil_temp": 49
+	},
+	{
+		"timestamp": 46476562
+	},
+	{
+		"timestamp": 46578125,
+		"egt1": 456.250000,
+		"egt2": 525.000000,
+		"egt3": 1525.000000,
+		"egt4": 1343.750000,
+		"vehicle_speed": 172,
+		"map": 216,
+		"bps": 131,
+		"oil_temp": 190
+	},
+	{
+		"timestamp": 46679687,
+		"egt1": 831.250000,
+		"egt2": 137.500000,
+		"egt3": 1312.500000,
+		"egt4": 87.500000,
+		"vehicle_speed": 26,
+		"map": 116,
+		"bps": 12,
+		"oil_temp": 157
+	},
+	{
+		"timestamp": 46781250,
+		"tyre_presLF": 13.375000,
+		"tyre_presRF": 28.125000,
+		"tyre_presLR": 14.875000,
+		"tyre_presRR": 14.125000
+	},
+	{
+		"timestamp": 46882812,
+		"lv_bat_volts": 1.750000,
+		"in_voltage": 19.875000,
+		"in_cur_bat": 30.125000,
+		"in_cur_alt": 13.250000
+	}
+
+]
