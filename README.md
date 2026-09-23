@@ -1,7 +1,7 @@
 Data aquisition and transmission system
 ---
 
-![UPB Drive Logo](updrive_log.jpg "UPB Drive logo")
+![UPB Drive Logo](updrive_logo.jpg "UPB Drive logo")
 
 Formula Student Telemetry system I've developed in my first year of University
 at UPB Drive
